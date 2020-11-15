@@ -15,7 +15,7 @@
     </div>
 
     <div>
-      <Gallery />
+      <AgileGal2 />
     </div>
 
      <div class="experience-page__main-text">
@@ -208,6 +208,7 @@
 import Gallery from './Gallery.vue'
 //import Swiper from './Swiper.vue'
 import AgileGal from './AgileGal.vue'
+import AgileGal2 from './AgileGal2.vue'
 
 
 export default {
@@ -215,7 +216,8 @@ export default {
   components: {
     Gallery, 
     //Swiper,
-    AgileGal
+    AgileGal,
+    AgileGal2
   }
 }
 
