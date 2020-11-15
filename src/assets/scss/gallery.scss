@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 67px 0;
+}
+
+.image {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #ebebeb;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.blueimp-gallery {
+  background: #fff;
+}
+
+#blueimp-gallery {
+  display: none;
+}

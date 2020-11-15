@@ -1,0 +1,138 @@
+.experience-page {
+  margin-top: 70px;
+  padding: 0;
+}
+
+.experience-page__title {
+  width: 739px;
+}
+
+.experience-page__title,
+.experience-page__main-text {
+  display: block;
+  text-align: left;
+}
+
+.experience-page__main-text {
+  width: 670px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.experience-page__quote {
+  width: 814px;
+  margin-left: auto;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.experience-page__quote-text {
+  font-family: 'Raleway-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin: 0;
+  text-indent: 20px;
+}
+
+.experience-page__title-sign {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.experience-page__title-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+  text-indent: 20px;
+}
+
+.experience-page__text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+  text-indent: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-page__line-up,
+.experience-page__line-down {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.experience-page__line-down {
+  justify-content: flex-end;
+}
+
+.experience-page__line {
+  width: 385px;
+  height: 0px;
+  border: 1px solid #EDD500;
+  margin-left: 28px;
+  margin-right: 13px;
+}
+
+.quotes {
+  width: 80px;
+  height: 60px;
+}
+
+.experience-page__video {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 53px;
+  width: 100%;
+}
+
+.experience-page__video-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+  height: 423px;
+  width: 523px;
+}
+
+.experience-page__video-block:last-child {
+  margin-right: 0;
+}
+
+.experience-page__video-block-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+  margin-bottom: 33px;
+}

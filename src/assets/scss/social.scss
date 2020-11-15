@@ -1,0 +1,45 @@
+.social {
+  width: 183px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.logo {
+  width: 104px;
+  height: 104px;
+  background-color: grey;
+}
+.social__networks {}
+.social__icons {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+}
+.social__newsletter {}
+.social__newsletter-btn {
+  background: #FFFFFF;
+  border: 1px solid #EDD500;
+  color: #3C3C3C;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+  height: 40px;
+  outline: none;
+  width: 183px;
+}
+
+.social__newsletter-btn:hover,
+.social__newsletter-btn:focus,
+.social__newsletter-btn:active {
+  background: #EDD500;
+}

@@ -1,0 +1,55 @@
+.footer{
+  margin-top: 69px;
+}
+
+.footer__promotion,
+.announcements,
+.projects {
+  display: flex;
+}
+
+.announcements {
+  flex: .5;
+}
+
+.projects {
+  flex: 1;
+}
+
+.announcements,
+.projects {
+  flex-direction: column;
+}
+
+.announcements__wrapper,
+.projects__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 22px;
+}
+
+.announcements__item,
+.projects__item {
+  width: 141px;
+}
+
+.announcements__item-text,
+.projects__item-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: left;
+  margin-top: 12px;
+}
