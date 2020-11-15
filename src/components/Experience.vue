@@ -63,7 +63,7 @@
     </div>
 
     <div>
-      <Gallery />
+      <AgileGal />
     </div>
 
     <div></div>
@@ -175,7 +175,7 @@
     </div>
 
     <div>
-       <Swiper />
+       <!-- <Swiper /> -->
     </div>
 
     <div class="experience-page__video">
@@ -206,13 +206,16 @@
 
 <script>
 import Gallery from './Gallery.vue'
-import Swiper from './Swiper.vue'
+//import Swiper from './Swiper.vue'
+import AgileGal from './AgileGal.vue'
 
 
 export default {
+  name: 'Experience',
   components: {
     Gallery, 
-    Swiper
+    //Swiper,
+    AgileGal
   }
 }
 
