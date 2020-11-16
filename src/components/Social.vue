@@ -2,7 +2,7 @@
    <div class="right-side">
       <div class="logo">
         <a href="/">
-          <img src="@/assets/image/logo.jpg" alt="" class="logo">
+          <img src="@/assets/image/logo_monochrom.png" alt="" class="logo">
         </a>
         
       </div>

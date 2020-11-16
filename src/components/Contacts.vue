@@ -45,7 +45,7 @@
 </template>
 
 <style lang="scss" scoped>
- @import '../assets/scss/header';
+ @import '../assets/scss/contacts';
 </style>
 
 <script>
