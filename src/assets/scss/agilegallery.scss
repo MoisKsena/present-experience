@@ -3,6 +3,7 @@
 	margin: 0 auto;
   max-width: 1076px;
   position: relative;
+  padding: 70px 0;
   height: 760px;
 }
 	
@@ -15,25 +16,10 @@
 .thumbnails {
   margin: 0 -5px;
   width: calc(100% + 10px);
-  
-  // button {
-  //   position: absolute;
-  //   bottom: 0;
-  //   left: 0;
-  // }
 }
 	
 
 // Basic VueAgile styles
-// .agile__nav-button {
-//   background: transparent;
-//   border: none;
-//   //color: #ccc;
-//   cursor: pointer;
-//   //font-size: 24px;
-//   transition-duration: .3s;
-// }
-
 	
 .agile.thumbnails {
   position: relative;
@@ -47,48 +33,11 @@
 
 .agile__nav-button .agile__nav-button--prev {
   left: -36px;
-  //top: 36%;
-  //position: absolute;
 }
   
-
 .agile__nav-button .agile__nav-button--next {
-  //position: absolute;
   right: -36px;
-  //top: 36%;
 }
-
-// .agile__nav-button--next:hover {
-//   color: #888;
-//   outline: yellow;
-// }
-			
-// .agile__dot {
-//   margin: 0 10px;  
-
-//   button {
-//     background-color: #eee;
-//     border: none;
-//     border-radius: 50%;
-//     cursor: pointer;
-//     display: block;
-//     height: 10px;
-//     font-size: 0;
-//     line-height: 0;
-//     margin: 0;
-//     padding: 0;
-//     transition-duration: .3s;
-//     width: 10px;
-//   }
-// }
-
-// .agile__dot--current,
-// .agile__dot:hover {
-//   button {
-//     background-color: #888;
-//   }
-// }
-    
 
 .agile {
   
@@ -98,25 +47,13 @@
 		color: #ccc;
 		cursor: pointer;
 		font-size: 24px;
-		transition-duration: .3s;
-	
-		// .thumbnails & {
-		// 	position: absolute;
-		// 	top: 50%;
-		// 	transform: translateY(-50%);
-
-		// 	&--prev {
-		// 		left: -45px;
-    //   }
-		// 	&--next {
-		// 		right: -45px;
-    //   }
-    // }
-
+    transition-duration: .3s;
+    
 		&:hover {
       color: #888;
     }
   }
+
 	&__dot {
 		margin: 0 10px;
 
@@ -134,6 +71,7 @@
 			transition-duration: .3s;
 			width: 10px;
     }
+
 		&--current,
 		&:hover {
 			button {
