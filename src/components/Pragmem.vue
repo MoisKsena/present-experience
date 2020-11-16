@@ -5,8 +5,7 @@
       <div class="pragmem__title">О проекте прагмема</div>
       <div class="pragmem__title-sign">«Прагмема» является авторским проектом АНО «Пропповский центр»</div>
       <div class="pragmem__link">
-        <p>больше о проекте на сайте</p>
-        <a href="http://www.pragmema.ru/" class="pragmem__link-item">http://www.pragmema.ru/</a>
+        <p class="pragmem__link-text">больше о проекте на сайте <a href="http://www.pragmema.ru/" class="pragmem__link-item">http://www.pragmema.ru/</a></p>
       </div>
 
       <div class="pragmem__main-text">
@@ -30,7 +29,7 @@
 </template>
 
 <style lang="scss" scoped>
- @import '../assets/scss/header';
+ @import '../assets/scss/pragmem';
 </style>
 
 <script>

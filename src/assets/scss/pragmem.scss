@@ -1,0 +1,72 @@
+.pragmem {
+  display: flex;
+  width: 100%;
+}
+
+.pragmem__wrapper {
+  margin-top: 70px;
+  padding: 0;
+  text-align: left;
+  width: 740px;
+}
+
+.pragmem__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.pragmem__title-sign {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.pragmem__link {
+  align-items: center;
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.pragmem__link-text {
+  margin: 0;
+  padding: 0;
+}
+
+.pragmem__link-item {
+  color: #4F4F4F;
+  cursor: pointer;
+  outline: none;
+  padding-left: 7px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.pragmem__link-item:hover,
+.pragmem__link-item:focus {
+  color: #EDD500;
+}
+
+.pragmem__main-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+  margin-top: 70px;
+  padding: 0;
+}
