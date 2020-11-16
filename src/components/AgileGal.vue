@@ -13,15 +13,15 @@
         <img :src="slide">
       </div>
 
-       <!-- <button type="button" slot="prevButton" class="agile__nav-button agile__nav-button--prev">
+       <button type="button" slot="prevButton" class="agile__nav-button agile__nav-button--prev">
           <img src="@/assets/image/arrowLeft.png"/>
         </button>
         <button type="button" slot="nextButton" class="agile__nav-button agile__nav-button--next">
           <img src="@/assets/image/arrowRight.png"/>
-        </button> -->
+        </button>
 
-        <template slot="prevButton" class="btn-prev"><img src="@/assets/image/arrowLeft.png"></template>
-        <template slot="nextButton" class="btn-next"><img src="@/assets/image/arrowRight.png"></template>
+        <!-- <template slot="prevButton" class="btn-prev"><img src="@/assets/image/arrowLeft.png"></template>
+        <template slot="nextButton" class="btn-next"><img src="@/assets/image/arrowRight.png"></template> -->
     </agile>
 
   </div>
@@ -76,28 +76,27 @@ export default {
 			},
 			
 			slides: [
-					require('@/assets/image/blackAndWhite_3/1.jpg'),
-          require('@/assets/image/blackAndWhite_3/2.jpg'),
-          require('@/assets/image/blackAndWhite_3/3.jpg'),
-          require('@/assets/image/blackAndWhite_3/4.jpg'),
-          require('@/assets/image/blackAndWhite_3/5.jpg'),
-          require('@/assets/image/blackAndWhite_3/6.jpg'),
-          require('@/assets/image/blackAndWhite_3/7.jpg'),
-          require('@/assets/image/blackAndWhite_3/8.jpg'),
-          require('@/assets/image/blackAndWhite_3/9.jpg'),
-          require('@/assets/image/blackAndWhite_3/10.jpg'),
-          require('@/assets/image/blackAndWhite_3/11.jpg'),
-          require('@/assets/image/blackAndWhite_3/12.jpg'),
-          require('@/assets/image/blackAndWhite_3/13.jpg'),
-          require('@/assets/image/blackAndWhite_3/14.jpg'),
-          require('@/assets/image/blackAndWhite_3/15.jpg'),
-          require('@/assets/image/blackAndWhite_3/16.jpg'),
-          require('@/assets/image/blackAndWhite_3/17.jpg'),
-          require('@/assets/image/blackAndWhite_3/18.jpg'),
-          require('@/assets/image/blackAndWhite_3/19.jpg'),
-          require('@/assets/image/blackAndWhite_3/20.jpg'),
-          require('@/assets/image/blackAndWhite_3/21.jpg'),
-          require('@/assets/image/blackAndWhite_3/22.jpg'),
+					require('@/assets/image/blackAndWhite_1/1.jpg'),
+          require('@/assets/image/blackAndWhite_1/2.jpg'),
+          require('@/assets/image/blackAndWhite_1/3.jpg'),
+          require('@/assets/image/blackAndWhite_1/4.jpg'),
+          require('@/assets/image/blackAndWhite_1/5.jpg'),
+          require('@/assets/image/blackAndWhite_1/6.jpg'),
+          require('@/assets/image/blackAndWhite_1/7.jpg'),
+          require('@/assets/image/blackAndWhite_1/8.jpg'),
+          require('@/assets/image/blackAndWhite_1/9.jpg'),
+          require('@/assets/image/blackAndWhite_1/10.jpg'),
+          require('@/assets/image/blackAndWhite_1/11.jpg'),
+          require('@/assets/image/blackAndWhite_1/12.jpg'),
+          require('@/assets/image/blackAndWhite_1/13.jpg'),
+          require('@/assets/image/blackAndWhite_1/14.jpg'),
+          require('@/assets/image/blackAndWhite_1/15.jpg'),
+          require('@/assets/image/blackAndWhite_1/16.jpg'),
+          require('@/assets/image/blackAndWhite_1/17.jpg'),
+          require('@/assets/image/blackAndWhite_1/18.jpg'),
+          require('@/assets/image/blackAndWhite_1/19.jpg'),
+          require('@/assets/image/blackAndWhite_1/20.jpg'),
+          require('@/assets/image/blackAndWhite_1/21.jpg'),
 				]
 		}
 	},

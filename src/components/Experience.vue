@@ -15,7 +15,7 @@
     </div>
 
     <div>
-      <AgileGal2 />
+      <AgileGal />
     </div>
 
      <div class="experience-page__main-text">
@@ -63,7 +63,7 @@
     </div>
 
     <div>
-      <AgileGal />
+      <AgileGal2 />
     </div>
 
     <div></div>
@@ -118,7 +118,8 @@
     </div>
 
     <div>
-      <Gallery />
+      <!-- <Gallery /> -->
+      <AgileGal3 />
     </div>
     
 
@@ -205,19 +206,21 @@
 </style>
 
 <script>
-import Gallery from './Gallery.vue'
+//import Gallery from './Gallery.vue'
 //import Swiper from './Swiper.vue'
 import AgileGal from './AgileGal.vue'
 import AgileGal2 from './AgileGal2.vue'
+import AgileGal3 from './AgileGal3.vue'
 
 
 export default {
   name: 'Experience',
   components: {
-    Gallery, 
+    //Gallery, 
     //Swiper,
     AgileGal,
-    AgileGal2
+    AgileGal2,
+    AgileGal3
   }
 }
 

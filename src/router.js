@@ -10,22 +10,23 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Experience',
+    //name: 'Experience',
     component: Experience,
+    redirect: '/experience'
   },
   {
     path: '/experience',
-    name: 'Experience',
+    //name: 'Experience',
     component: Experience,
   },
   {
     path: '/pragmem',
-    name: 'Pragmem',
+    //name: 'Pragmem',
     component: Pragmem,
   },
   {
     path: '/contacts',
-    name: 'Contacts',
+    //name: 'Contacts',
     component: Contacts,
   }
 ]

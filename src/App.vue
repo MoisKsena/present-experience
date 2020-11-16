@@ -16,9 +16,6 @@
 <script>
 import Header from './components/Header.vue'
 import Social from './components/Social.vue'
-//import Experience from './components/Experience.vue'
-// import Pragmem from './components/Pragmem.vue'
-// import Contacts from './components/Contacts.vue'
 
 import Footer from './components/Footer.vue'
 
@@ -28,9 +25,6 @@ export default {
   components: {
     Header,
     Social,
-    //Experience,
-    // Pragmem,
-    // Contacts,
     Footer
   }
 }
