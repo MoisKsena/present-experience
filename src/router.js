@@ -15,17 +15,17 @@ const routes = [
     redirect: '/experience'
   },
   {
-    path: '/experience',
+    path: 'experience',
     //name: 'Experience',
     component: Experience,
   },
   {
-    path: '/pragmem',
+    path: 'pragmem',
     //name: 'Pragmem',
     component: Pragmem,
   },
   {
-    path: '/contacts',
+    path: 'contacts',
     //name: 'Contacts',
     component: Contacts,
   }
