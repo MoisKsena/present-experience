@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/',
     //name: 'Experience',
-    component: Experience,
+    //component: Experience,
     redirect: '/experience'
   },
   {
