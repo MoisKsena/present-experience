@@ -1,3 +1,87 @@
+.contacts {
+  padding-top: 70px;
+  text-align: left;
+}
+
 .contacts__wrapper {
-  width: 850px;
+  margin-top: 70px;
+  width: 580px;
+}
+
+.contacts__main {
+  display: flex;
+}
+
+.contacts__main-text {
+  padding: 0;
+  margin-left: 27px;
+}
+
+.contacts__main-text-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.contacts__main-text-sign,
+.contacts__main-text-desc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+}
+
+.contacts__main-text-sign {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.contacts__main-text-desc {
+  text-indent: 20px;
+}
+
+.contacts__main-text-desc:first-child {
+  padding-bottom: 20px;
+}
+
+.contacts__list {
+  margin-top: 70px;
+  padding: 0;
+}
+
+.contacts__list-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.contacts__list-mail,
+.contacts__list-tel {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.025em;
+
+  p {
+    margin: 0;
+  }
+
+  &.mail,
+  &.tel {
+    width: 100px;
+  }
+}
+
+.contacts__list-mail {
+  padding-bottom: 3px;
 }

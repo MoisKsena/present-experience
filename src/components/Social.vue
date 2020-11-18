@@ -24,7 +24,7 @@
         </div>
         <div class="social__newsletter">
           <p>И получать рассылку новостей</p>
-          <button class="social__newsletter-btn">подписаться</button>
+          <button class="subscribe-btn m-social">подписаться</button>
         </div>
       </div>
     </div>
@@ -33,4 +33,5 @@
 <style lang="scss" scoped>
  @import '../assets/scss/header';
  @import '../assets/scss/social';
+ @import '../assets/scss/main';
 </style>

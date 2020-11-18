@@ -203,6 +203,7 @@
 <style lang="scss" scoped>
   @import '../assets/scss/experience';
   @import '../assets/scss/gallery';
+  @import '../assets/scss/main';
 </style>
 
 <script>

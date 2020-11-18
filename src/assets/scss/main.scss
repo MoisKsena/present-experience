@@ -4,15 +4,47 @@
   color: #2c3e50;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1076px;
-  padding-top: 50px;
-  color:#4F4F4F;
+  max-width: 1141px;
+  padding-top: 31px;
 }
 
-.pages-wrapper {
+.header-wrapper {
   align-items: flex-start;
   display: flex;
   flex-wrap: nowrap;
   position: relative;
-  max-width: 1076px;
+  max-width: 1141px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.subscribe-btn {
+  background: #FFFFFF;
+  border: 1px solid #EDD500;
+  color: #3C3C3C;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+  height: 40px;
+  outline: none;
+}
+
+
+.subscribe-btn:hover,
+.subscribe-btn:focus,
+.subscribe-btn:active {
+  background: #EDD500;
 }

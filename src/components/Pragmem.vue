@@ -1,13 +1,14 @@
 <template>
 
   <div class="pragmem">
-    <div class="pragmem__wrapper">
+    <div class="pragmem__sign">
       <h1 class="pragmem__title">О проекте прагмема</h1>
       <div class="pragmem__title-sign">«Прагмема» является авторским проектом АНО «Пропповский центр»</div>
       <div class="pragmem__link">
         <p class="pragmem__link-text">больше о проекте на сайте <a href="http://www.pragmema.ru/" class="pragmem__link-item">http://www.pragmema.ru/</a></p>
       </div>
-
+    </div>
+    <div class="pragmem__wrapper">
       <div class="pragmem__main-text">
         <p>
           Проект Прагмема — это независимый исследовательский проект, объектом которого служит российская повседневность, представленная в коллективных символических практиках.
@@ -21,19 +22,28 @@
       </div>
 
       <div class="pragmem__video">
-        <img src="" alt="">
+        <img src="@/assets/image/pragmem.png" alt="">
       </div>
     </div>
+
+    <Subscription />
   </div>
 
 </template>
 
 <style lang="scss" scoped>
  @import '../assets/scss/pragmem';
+ @import '../assets/scss/main';
 </style>
 
 <script>
+  import Subscription from './Subscription.vue'
+
+
   export default {
     name: 'Pragmem',
+    components: {
+      Subscription
+    }
   }
 </script>

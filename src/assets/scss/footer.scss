@@ -1,22 +1,7 @@
 .footer{
   width: 100%;
-  padding: 70px 0 18px;
-}
-
-.footer__wrapper {
-  width: 1076px;
   margin: 0 auto;
-}
-
-.footer__wrapper.m-copyright {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.footer__wrapper.m-copyright p {
-  padding: 20px 0;
-  margin: 0;
+  padding: 70px 0 14px;
 }
 
 .footer__promotion,
@@ -72,12 +57,18 @@
 }
 
 .footer__copyright {
+  display: flex;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 17px;
   color: #CECECE;
-  border-top: 1px solid #EDD500;
-  margin-top: 40px;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.footer__copyright p {
+  margin: 0;
+  padding: 0;
 }
