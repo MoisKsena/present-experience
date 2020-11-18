@@ -3,7 +3,7 @@
     
       <ul class="menu__list" id="menu">
         <li class="menu__list-item">
-          <router-link class="menu__list-item-link" to="/experience">Выставка "Опыт настоящего"</router-link>
+          <router-link class="menu__list-item-link" to="/experience" exact>Выставка "Опыт настоящего"</router-link>
         </li>
           
         <li class="menu__list-item">
