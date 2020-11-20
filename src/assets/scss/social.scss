@@ -10,12 +10,22 @@
   line-height: 17px;
 }
 
+.social p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 0;
+  padding: 15px 0;
+  width: 185px;
+}
+
 .logo {
   width: 104px;
   height: 104px;
-  background-color: grey;
 }
-.social__networks {}
+
 .social__icons {
   height: 25px;
   width: 25px;

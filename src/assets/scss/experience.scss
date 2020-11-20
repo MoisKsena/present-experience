@@ -1,25 +1,55 @@
 .experience-page {
   margin-top: 70px;
   padding: 0;
-}
-
-.experience-page__title {
-  width: 739px;
-}
-
-.experience-page__title,
-.experience-page__main-text {
-  display: block;
   text-align: left;
 }
 
-.experience-page__main-text {
-  width: 670px;
+.experience-page__title {
+  margin-bottom: 62px;
+}
+
+.experience-page__wrapper {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-page__wrapper img {
+  width: 648px;
+}
+
+.experience-page__wrapper.first  img {
+  height: 486px;
+}
+
+.experience-page__wrapper.second img {
+  height: 501px;
+}
+
+.experience-page__main-foto {
+  margin: 80px 0 70px;
+  height: 700px;
+  width: 1140px;
+}
+ 
+.experience-page__foto-block {
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+  margin-bottom: 70px;
+}
+
+.experience-page__foto-block.small {
+  margin-bottom: 30px;
+}
+
+.experience-page__foto-block img {
+  width: 353px;
 }
 
 .experience-page__quote {
-  width: 814px;
-  margin-left: auto;
+  width: 888px;
+  margin: 0 auto;
   padding: 50px 0;
   text-align: left;
 }
@@ -31,42 +61,36 @@
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  padding: 20px 0;
+  padding: 30px 0;
   margin: 0;
-  text-indent: 20px;
-}
-
-.experience-page__title-sign {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 17px;
-  padding-top: 15px;
-  margin: 0;
-}
-
-.experience-page__title-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.025em;
   text-indent: 20px;
 }
 
 .experience-page__text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.025em;
   text-indent: 20px;
-  padding: 0;
+  width: 453px;
+}
+
+.experience-page__text.first {
+  padding-top: 110px;
+}
+
+.experience-page__text.second img {
+  height: 501px;
+}
+
+.experience-page__text p {
   margin: 0;
+}
+
+.experience-page__text p:first-child {
+  padding-bottom: 20px;
 }
 
 .experience-page__line-up,
@@ -75,6 +99,7 @@
   flex-wrap: nowrap;
   align-items: center;
   position: relative;
+  padding: 0 46px 0 120px;
 }
 
 .experience-page__line-down {
@@ -94,34 +119,6 @@
   height: 60px;
 }
 
-.experience-page__video {
-  align-items: flex-end;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  margin-top: 53px;
-  width: 100%;
-}
-
-.experience-page__video-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 30px;
-  height: 423px;
-  width: 523px;
-}
-
-.experience-page__video-block:last-child {
-  margin-right: 0;
-}
-
-.experience-page__video-block-text {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.025em;
-  margin-bottom: 33px;
+.experience-page__foto {
+  margin: 70px 0;
 }

@@ -16,6 +16,10 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
+  @import '../assets/scss/gallery';
+</style>
+
 <script>
   import VueGallery from 'vue-gallery';
   

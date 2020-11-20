@@ -1,35 +1,34 @@
 <template>
   <div class="experience-page" id="experience">
-    <div class="experience-page__title">
-      <h1>выставка «опыт настоящего»</h1>
-      <p class="experience-page__title-text">
-          Материалом для выставки послужили изображения, сохранившиеся на пленках фотоархива
-          Василия Стахевича Мариничева (1926 г., д. Подрезово Семеновского уезда Нижегородской
-          губернии — 2002 г. Петербург), многие годы работавшего в одном из институтов Ленинграда
-          заведующим фотолабораторией. Из 5000 изображений мы выбрали для проекта чуть менее двухсот,
-          относящихся к 1950-1960м годам. Предметом визуального исследования был досуг: время, предоставленное
-          самому себе и тем людям, которые с тобой его разделяют. Качество свободного времени, как нам кажется,
-          обеспечено величинами иного масштаба, нежели эпоха или социальная страта. Этот проект — попытка их делать различимыми.
-      </p>
-      <p class="experience-page__title-sign">Фотографии из архива В. С. Мариничева, старые снимки 1950-х — начала 1960-х гг.<br />Текст — Светлана Адоньева, куратор проекта.</p>
+    
+    <h1 class="experience-page__title">выставка «опыт настоящего»</h1>
+
+    <div class="experience-page__wrapper first">
+
+      <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board">
+
+      <div class="experience-page__text first">
+        <p>
+          Материалом для выставки послужили изображения, сохранившиеся на пленках фотоархива Василия Стахевича Мариничева (1926 г., д. Подрезово Семеновского уезда
+          Нижегородской губернии — 2002 г. Петербург), многие годы работавшего в одном из институтов Ленинграда заведующим фотолабораторией. Из 5000 изображений мы
+          выбрали для проекта чуть менее двухсот, относящихся к 1950-1960м годам. Предметом визуального исследования был досуг: время, предоставленное самому себе и тем людям,
+          которые с тобой его разделяют. 
+        </p>
+        <p>
+          Фотографии из архива В. С. Мариничева, старые снимки 1950-х — начала 1960-х гг. Текст — Светлана Адоньева, куратор проекта.
+        </p>
+      </div>
+      
     </div>
 
-    <div>
-      <AgileGal />
-    </div>
+    <div class="download-btn">скачать полный архив</div>
 
-     <div class="experience-page__main-text">
-      <p class="experience-page__text">
-          Среди множества фотографий из семейных архивов, которые я попросила у своих друзей и коллег для работы над темой свадьбы,
-          меня зацепили несколько из фотоархива семьи Мариничевых. Они не имели отношения к теме моего исследования, просто попались
-          среди прочих отсканированных фотографий. Тридцать девять изображений. Что-то в них было захватывающее, на них хотелось смотреть.
-          Разглядывание их приводило в дивное состояние-настроение. 
-        </p>
-        <p class="experience-page__text">
-          Этим состоянием-настроением хотелось делиться с другими: я показывала их на занятиях со студентами Школы документального кино и театра
-          Марины Разбежкиной и Михаила Угарова. Время от времени я выкладывала некоторые из них на своей странице в фейсбуке: я возвращалась к этим
-          фотографиям, когда мне хотелось перевести дыхание. В них не было ничего особенного.
-        </p>
+    <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__main-foto">
+
+    <div class="experience-page__foto-block">
+      <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
+      <img src="@/assets/image/experience/foto-archive/3exp.png" alt="MARINICHEV-foto">
+      <img src="@/assets/image/experience/foto-archive/4exp.png" alt="MARINICHEV-foto">
     </div>
 
     <div class="experience-page__quote">
@@ -39,7 +38,10 @@
       </div>
 
       <div class="experience-page__quote-text">
-        Что-то в них было захватывающее,<br />на них хотелось смотреть.
+        Качество свободного времени, как нам кажется,<br />
+        обеспечено величинами иного масштаба,<br />
+        нежели эпоха и социальная страта. Этот проект<br />
+        –&nbsp;попытка их делать различимыми
       </div>
       <div class="experience-page__line-down">
         <div class="experience-page__line"></div>
@@ -47,38 +49,45 @@
       </div>
     </div>
    
+    <div class="experience-page__wrapper second">
 
-    <div class="experience-page__main-text">
-      <p class="experience-page__text">
-        Мальчик с кроликом и щенком сидит на диване и улыбается. Сначала ты видишь мальчика, потом щенка и лишь после этого обнаруживаешь, что на руках у мальчика кролик.
-        Молодые мужчины дурачатся перед фотоаппаратом: залезли на камень посреди лужи вместе с двумя мальчишками и принимают позы. Полуголый малыш несет ягодины на блюдце,
-        девочка постарше присела на корточки и смотрит куда-то сквозь него, а на заднем плане на них обоих смотрит женщина, остановившись с ведром в руках. Мальчишки идут
-        по железнодорожным рельсам, раскинув руки для равновесия: двое в тюбетейках, один в фуражке. На залитой солнцем деревенской улице две женщины и о чем-то разговаривают,
-        одну из них перекрывает фигура проходящего мимо них бородатого мужика.
-      </p>
-      <p class="experience-page__text">
-        Три загорающие на одеялах женщины смотрят на что-то, чего мы не видим, а стоящий над ними мальчик смотрит на одну из них. Собака смотрит туда же, куда и мальчик.
-        Собака на цепи, которая обмотана вокруг его голого торса. Два подростка в светлых рубашках, застегнутых на все пуговицы, позируют фотографу на фоне деревенского дома.
-      </p>
+      <div class="experience-page__text second">
+        <p>
+          Среди множества фотографий из семейных архивов, которые я попросила у своих друзей и коллег для работы над темой свадьбы,
+          меня зацепили несколько из фотоархива семьи Мариничевых. Они не имели отношения к теме моего исследования, просто попались
+          среди прочих отсканированных фотографий. Тридцать девять изображений. Что-то в них было захватывающее, на них хотелось смотреть.
+          Разглядывание их приводило в дивное состояние-настроение.
+        </p>
+        <p>
+          Этим состоянием-настроением хотелось делиться с другими: я показывала их на занятиях со студентами Школы документального кино и театра
+          Марины Разбежкиной и Михаила Угарова. Время от времени я выкладывала некоторые из них на своей странице в фейсбуке: я возвращалась к этим
+          фотографиям, когда мне хотелось перевести дыхание. В них не было ничего особенного.
+        </p>
+      </div>
+      
+      <img src="@/assets/image/experience/foto-archive/5exp.png" alt="foto-board">
+
     </div>
 
-    <div>
-      <AgileGal2 />
+    <div class="experience-page__foto">
+      <div class="experience-page__foto-block small">
+        <img src="@/assets/image/experience/foto-archive/6exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/7exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/8exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block small">
+        <img src="@/assets/image/experience/foto-archive/9exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/10exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/11exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block small">
+        <img src="@/assets/image/experience/foto-archive/12exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/13exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/14exp.png" alt="MARINICHEV-foto">
+      </div>
     </div>
-
-    <div></div>
-    <div class="experience-page__main-text">
-      <p class="experience-page__text">
-        Описывая фотографию одну за другой, я понимаю, что описываю мир, в котором все как-то очень ладно и хорошо устроено. Люди в этом мире как дома, в которых живут:
-        в них свет и тепло. В них что-то совершается — размеренное и самодостаточное. А еще люди-дома основательно и уверенно размещены в пространстве. Оно им дается без
-        труда, где бы они не находились, оно их надежно подхватывает.
-      </p>
-      <p class="experience-page__text">
-        И не менее надежно они охвачены связью друг с другом, у них есть какие-то общие дела и общие основания жизни. И я понимаю, что качество жизненного мира, который открывается
-        мне в этих фотографиях, невероятно высоко. И это не качество эпохи: о них иногда даже трудно судить (1950е) или места (Ленинград, поселок Токсово, деревня под Горьким).
-        Качество открывающегося мира обеспечено взглядом фотографа: от него мир не прячется, не сжимается и не представляется. Под его взглядом он живет своей жизнью.
-      </p>
-    </div>
+    
+    <img src="@/assets/image/experience/foto-archive/15exp.png" alt="MARINICHEV-foto">
     
     <div class="experience-page__quote">
       <div class="experience-page__line-up">
@@ -117,10 +126,8 @@
       </p>
     </div>
 
-    <div>
-      <!-- <Gallery /> -->
-      <AgileGal3 />
-    </div>
+    <!-- <AgileGal /> -->
+    <!-- <Gallery /> -->
     
 
     <div class="experience-page__main-text">
@@ -175,10 +182,6 @@
     
     </div>
 
-    <div>
-       <!-- <Swiper /> -->
-    </div>
-
     <div class="experience-page__video">
       <div class="experience-page__video-block">
         <div class="experience-page__video-block-text">
@@ -202,26 +205,20 @@
 
 <style lang="scss" scoped>
   @import '../assets/scss/experience';
-  @import '../assets/scss/gallery';
   @import '../assets/scss/main';
 </style>
 
 <script>
 //import Gallery from './Gallery.vue'
 //import Swiper from './Swiper.vue'
-import AgileGal from './AgileGal.vue'
-import AgileGal2 from './AgileGal2.vue'
-import AgileGal3 from './AgileGal3.vue'
+//import AgileGal from './AgileGal.vue'
 
 
 export default {
   name: 'Experience',
   components: {
     //Gallery, 
-    //Swiper,
-    AgileGal,
-    AgileGal2,
-    AgileGal3
+    //AgileGal,
   }
 }
 
