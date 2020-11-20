@@ -14,7 +14,8 @@
   justify-content: space-between;
 }
 
-.experience-page__wrapper img {
+.experience-page__wrapper img,
+.experience-page__foto.fifth {
   width: 648px;
 }
 
@@ -24,6 +25,16 @@
 
 .experience-page__wrapper.second img {
   height: 501px;
+}
+
+.experience-page__wrapper.third {
+  margin: 70px 0;
+  height: 664px;
+}
+
+.experience-page__wrapper.fourth {
+  height: 460px;
+  margin-bottom: 70px;
 }
 
 .experience-page__main-foto {
@@ -63,7 +74,6 @@
   letter-spacing: 0.02em;
   padding: 30px 0;
   margin: 0;
-  text-indent: 20px;
 }
 
 .experience-page__text {
@@ -87,6 +97,18 @@
 
 .experience-page__text p {
   margin: 0;
+}
+
+.experience-page__text.third,
+.experience-page__text.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.experience-page__wrapper.fifth {
+  margin: 70px 0;
 }
 
 .experience-page__text p:first-child {
@@ -121,4 +143,81 @@
 
 .experience-page__foto {
   margin: 70px 0;
+}
+
+.experience-page__foto-block-third {
+  display: flex;
+  justify-content: space-between;
+  height: 570px;
+  margin-bottom: 70px;
+}
+
+.experience-page__foto-block-third img {
+  width: 491px;
+}
+
+.experience-page__foto-block-third.small {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-page__foto-block-third.small img {
+  height: 254px;
+  width: 590px;
+}
+
+.experience-page__wrapper.fifth {
+  height: 1060px;
+}
+
+.experience-page__foto.fifth {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+.experience-page__foto.fifth img {
+  height: 515px;
+}
+
+.experience-page__text.fifth {
+  height: 100%;
+}
+
+.experience-page__text.fifth p:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.experience-page__video {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 53px;
+  width: 100%;
+}
+
+.experience-page__video-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+  height: 423px;
+  width: 523px;
+}
+
+.experience-page__video-block:last-child {
+  margin-right: 0;
+}
+
+.experience-page__video-block-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.025em;
+  margin-bottom: 33px;
 }
