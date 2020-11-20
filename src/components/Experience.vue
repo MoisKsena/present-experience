@@ -20,10 +20,11 @@
       </div>
       
     </div>
-
     <div class="download-btn">скачать полный архив</div>
+      
+    
 
-    <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__main-foto">
+    <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto">
 
     <div class="experience-page__foto-block">
       <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
@@ -227,7 +228,68 @@
       </div>
     </div>
 
-   
+    <img class="experience-page__foto-big-alone" src="@/assets/image/experience/foto-archive/33exp.png" alt="MARINICHEV-foto">
+
+    <div class="experience-page__foto">
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/34exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/35exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/36exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/37exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/38exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/39exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/40exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/41exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/42exp.png" alt="MARINICHEV-foto">
+      </div>
+    </div>
+    
+    <div class="experience-page__wrapper sixth">
+
+      <img src="@/assets/image/experience/foto-archive/43exp.png" alt="foto-board">
+
+      <div class="experience-page__text sixth">
+        <p>
+          Откуда берется сила, позволяющая признать себя и других пребывающими в «здесь и сейчас»? Обнаружить себя и других не «ветеранами войны», «колхозниками»
+          или же «школьницами», «начинающими клерками», «женщинами не первой молодости», не ролями, а людьми, разделяющими со мной настоящее. Я полагаю, что дар
+          просто быть и признавать за миром и людьми право просто быть обеспечен знанием о краях жизни. Такое знание у многих из нас случается как опыт в ситуации
+          близкой смерти или понесенной утраты, этот опыт застает тебя врасплох, в одиночестве, не готовым. 
+        </p>
+        <p>
+          Советские родители редко оказывались теми людьми, которые подхватывали своих детей в этом опыте, чаще всего они сами не смогли его ни с кем разделить.
+          За миром Василия Стахевича Мариничева, скрывается другой опыт и другое знание, разделенное и согласованное.
+        </p>
+        <p>
+          Ты увидел нечто, понял, что это край, а кто-то старший встал рядом и сказал: «Да, то, что ты видишь — край. Теперь и ты знаешь, что у жизни есть края».
+          Разделенное с другими знание о том, что у жизни есть край, дает силу смотреть в настоящее и видеть в нем другого в его полноте.
+        </p>
+      </div>
+      
+    </div>
+
+    <div class="experience-page__foto">
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/44exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/45exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/46exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/47exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/48exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/49exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/50exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/51exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/52exp.png" alt="MARINICHEV-foto">
+      </div>
+    </div>
+
+    <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto">
 
     <div class="experience-page__video">
       <div class="experience-page__video-block">

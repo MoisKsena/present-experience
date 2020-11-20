@@ -12,6 +12,7 @@
   align-items: flex-end;
   display: flex;
   justify-content: space-between;
+  margin: 70px 0;
 }
 
 .experience-page__wrapper img,
@@ -28,17 +29,18 @@
 }
 
 .experience-page__wrapper.third {
-  margin: 70px 0;
   height: 664px;
 }
 
 .experience-page__wrapper.fourth {
   height: 460px;
-  margin-bottom: 70px;
 }
 
-.experience-page__main-foto {
-  margin: 80px 0 70px;
+.experience-page__wrapper.sixth {
+  height: 689px;
+}
+
+.experience-page__big-foto {
   height: 700px;
   width: 1140px;
 }
@@ -47,11 +49,15 @@
   display: flex;
   justify-content: space-between;
   height: 260px;
-  margin-bottom: 70px;
+  margin: 70px 0;
 }
 
 .experience-page__foto-block.small {
-  margin-bottom: 30px;
+  margin: 0 0 30px;
+}
+
+.experience-page__foto-block.middle {
+  margin: 0 0 70px;
 }
 
 .experience-page__foto-block img {
@@ -61,7 +67,7 @@
 .experience-page__quote {
   width: 888px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 0;
   text-align: left;
 }
 
@@ -83,7 +89,7 @@
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.025em;
-  text-indent: 20px;
+  text-indent: 18px;
   width: 453px;
 }
 
@@ -105,10 +111,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-}
-
-.experience-page__wrapper.fifth {
-  margin: 70px 0;
 }
 
 .experience-page__text p:first-child {
@@ -182,12 +184,18 @@
   height: 515px;
 }
 
-.experience-page__text.fifth {
+.experience-page__text.fifth,
+.experience-page__text.sixth {
   height: 100%;
 }
 
-.experience-page__text.fifth p:not(:last-child) {
+.experience-page__text.fifth p:not(:last-child),
+.experience-page__text.sixth p:not(:last-child) {
   padding-bottom: 20px;
+}
+
+.experience-page__foto-big-alone {
+  margin-top: 70px;
 }
 
 .experience-page__video {
