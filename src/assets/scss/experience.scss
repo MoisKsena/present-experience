@@ -40,6 +40,15 @@
   height: 689px;
 }
 
+.experience-page__wrapper.seventh {
+  height: 800px;
+}
+
+.experience-page__wrapper.video {
+  flex-direction: column;
+  text-align: left;
+}
+
 .experience-page__big-foto {
   height: 700px;
   width: 1140px;
@@ -53,10 +62,14 @@
 }
 
 .experience-page__foto-block.small {
+  display: flex;
+  justify-content: space-between;
   margin: 0 0 30px;
 }
 
 .experience-page__foto-block.middle {
+  display: flex;
+  justify-content: space-between;
   margin: 0 0 70px;
 }
 
@@ -145,6 +158,7 @@
 
 .experience-page__foto {
   margin: 70px 0;
+  height: 100%;
 }
 
 .experience-page__foto-block-third {
@@ -154,11 +168,16 @@
   margin-bottom: 70px;
 }
 
+.experience-page__foto-block-third.margin-top {
+  margin-top: 70px;
+}
+
 .experience-page__foto-block-third img {
   width: 491px;
 }
 
-.experience-page__foto-block-third.small {
+.experience-page__foto-block-third.small,
+.experience-page__foto-block-third.middle {
   display: flex;
   flex-direction: column;
 }
@@ -168,11 +187,17 @@
   width: 590px;
 }
 
+.experience-page__foto-block-third.middle img {
+  height: 270px;
+  width: 590px;
+}
+
 .experience-page__wrapper.fifth {
   height: 1060px;
 }
 
-.experience-page__foto.fifth {
+.experience-page__foto.fifth,
+.experience-page__foto.seventh {
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -184,10 +209,10 @@
   height: 515px;
 }
 
-.experience-page__text.fifth,
-.experience-page__text.sixth {
-  height: 100%;
+.experience-page__foto.seventh img {
+  height: 390px;
 }
+
 
 .experience-page__text.fifth p:not(:last-child),
 .experience-page__text.sixth p:not(:last-child) {
@@ -207,12 +232,29 @@
   width: 100%;
 }
 
+.experience-page__title-video {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0;
+  width: 100%;
+}
+
 .experience-page__video-block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-right: 30px;
   height: 423px;
+  width: 523px;
+}
+
+.experience-page__video-block img {
+  height: 278px;
   width: 523px;
 }
 
@@ -228,4 +270,5 @@
   line-height: 23px;
   letter-spacing: 0.025em;
   margin-bottom: 33px;
+  text-indent: 18px;
 }

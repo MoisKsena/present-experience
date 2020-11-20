@@ -10,7 +10,7 @@
       <div class="experience-page__text first">
         <p>
           Материалом для выставки послужили изображения, сохранившиеся на пленках фотоархива Василия Стахевича Мариничева (1926 г., д. Подрезово Семеновского уезда
-          Нижегородской губернии — 2002 г. Петербург), многие годы работавшего в одном из институтов Ленинграда заведующим фотолабораторией. Из 5000 изображений мы
+          Нижегородской губернии — 2002 г. Петербург), многие годы работавшего в одном из&nbsp;институтов Ленинграда заведующим фотолабораторией. Из 5000 изображений мы
           выбрали для проекта чуть менее двухсот, относящихся к 1950-1960м годам. Предметом визуального исследования был досуг: время, предоставленное самому себе и тем людям,
           которые с тобой его разделяют. 
         </p>
@@ -206,7 +206,6 @@
         <img src="@/assets/image/experience/foto-archive/32exp.png" alt="foto-board">
       </div>
       
-
     </div>
    
 
@@ -291,22 +290,87 @@
 
     <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto">
 
-    <div class="experience-page__video">
-      <div class="experience-page__video-block">
-        <div class="experience-page__video-block-text">
-          Выступление фольклориста и культурного антрополога Светланы Адоньевой и дизайнера Антона Лепашова на презентации  книги  "Свободное время.
-          Из фотоархива В. С. Мариничева" в Санкт-Петербурге в Отель Indigo St. Petersburg на Чайковского:
-        </div>
-          <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container">
-      </div>
+    <div class="experience-page__wrapper seventh">
 
-      <div class="experience-page__video-block">
-         <div class="experience-page__video-block-text">
-            Память и тело в семейных фотографиях ХХ века (C. Адоньева)
-        </div>
-        <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container">
+      <div class="experience-page__text fifth">
+        <p>
+          Василий Стахеевич Мариничев, фотограф (1926 — 2002) родился в староверческом селе Подрезово Нижегородской губернии,
+          в крестьянской семье, воевал, занимался аэрофотосъемкой, всю жизнь проработал на закрытом предприятии.
+        </p>
+        <p>
+          Он был сыном Стахея Клементовича Мариничева (1906 — 1982). Стахей Клементович стал в 1922 году директором валяльной фабрики, которая до этого принадлежала
+          их семье, его отец Клемент умер в 1917, наследником стал Стахей. В 1927 году он отписал свое имение младшему брату Афанасию и переселился в Ленинград.
+          Жена его осталась в деревне, с детьми, позже он устроил их учиться и работать в Ленинграде, также как и Афанасия, который был «раскулачен» в начале 1930х годов.
+          Стахей служил в армии, был старшим лейтенантом, имел награды и грамоты от органов советской власти.
+        </p>
+        <p>
+          Но среди его документов есть один, который говорит о нем очень многое. Это рукописный помянник, где указаны «годины» и «помины» всего его рода — дядьев и бабушек,
+          брата, умершего в блокаду, и матери. Эта бумага была у него под рукой, каждый день он знал, о ком и как молиться. Вряд ли о его молитвенном за всех предстоянии знали
+          все его дети. Возможно и вообще никто об этом не знал. Но Василию Стахеевичу было откуда взять силу удерживать и различать глубину мира и собственную глубину.
+        </p>
       </div>
-     
+    
+      <div class="experience-page__foto seventh">
+        <img src="@/assets/image/experience/foto-archive/54exp.png" alt="foto-board">
+        <img src="@/assets/image/experience/foto-archive/Marinichev-Stahey.png" alt="Marinichev-Stahey">
+      </div>
+    
+    </div>
+
+    <img src="@/assets/image/experience/foto-archive/55exp.png" alt="MARINICHEV-foto">
+
+    <div class="experience-page__foto-block-third margin-top">
+      <div class="experience-page__foto-block-third big">
+        <img src="@/assets/image/experience/foto-archive/card-Marinevich-family.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block-third middle">
+        <img src="@/assets/image/experience/foto-archive/56exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/57exp.png" alt="MARINICHEV-foto">
+      </div>
+    </div>
+
+    <div class="experience-page__foto">
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/58exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/59exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/60exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/61exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/62exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/63exp.png" alt="MARINICHEV-foto">
+      </div>
+      <div class="experience-page__foto-block middle">
+        <img src="@/assets/image/experience/foto-archive/64exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/65exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/66exp.png" alt="MARINICHEV-foto">
+      </div>
+    </div>
+
+    <img src="@/assets/image/experience/foto-archive/67exp.png" alt="MARINICHEV-foto">
+
+
+    <div class="experience-page__wrapper video">
+      <div class="experience-page__title-video">Записи выступлений</div>
+    
+      <div class="experience-page__video">
+        
+        <div class="experience-page__video-block">
+          <div class="experience-page__video-block-text">
+            Выступление фольклориста и культурного антрополога Светланы Адоньевой и дизайнера Антона Лепашова на презентации  книги  "Свободное время.
+            Из фотоархива В. С. Мариничева" в Санкт-Петербурге в Отель Indigo St. Petersburg на Чайковского:
+          </div>
+            <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container">
+        </div>
+
+        <div class="experience-page__video-block">
+          <div class="experience-page__video-block-text">
+              Память и тело в семейных фотографиях ХХ века (C. Адоньева)
+          </div>
+          <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container">
+        </div>
+      
+      </div>
     </div>
     <!-- <AgileGal /> -->
     <!-- <Gallery /> -->
