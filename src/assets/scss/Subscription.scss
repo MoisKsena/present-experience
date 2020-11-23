@@ -32,22 +32,6 @@
   margin: 0;
 }
 
-.subscription__sign {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 362px;
-}
-
-.subscribe-btn.m-subscription {
-  width: 100%;
-}
-
-.subscription__sign-name,
-.subscription__sign-mail {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #B0B0B0;
-  outline: none;
+.subscribe-btn.m-social {
+  margin-top: -5px;
 }

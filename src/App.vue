@@ -3,7 +3,6 @@
     <div class="header-wrapper">
       <Header/><Social/>
     </div>
-    
     <router-view></router-view>
     <footer>
       <Footer />
@@ -16,7 +15,6 @@
 <script>
 import Header from './components/Header.vue'
 import Social from './components/Social.vue'
-
 import Footer from './components/Footer.vue'
 
 

@@ -26,25 +26,3 @@ h1 {
   text-transform: uppercase;
   margin: 0;
 }
-
-.subscribe-btn {
-  background: #FFFFFF;
-  border: 1px solid #EDD500;
-  color: #3C3C3C;
-  cursor: pointer;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 17px;
-  text-transform: uppercase;
-  height: 40px;
-  outline: none;
-}
-
-
-.subscribe-btn:hover,
-.subscribe-btn:focus,
-.subscribe-btn:active {
-  background: #EDD500;
-}

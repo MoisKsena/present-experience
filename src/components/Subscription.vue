@@ -14,22 +14,23 @@
       </ul>
     </div>
 
-    <div class="subscription__sign">
-      <input type="text" id="name" name="name" placeholder="ваше имя" class="subscription__sign-name">
-      <input type="text" id="mail" name="e-mail" placeholder="ваш email" class="subscription__sign-mail">
-
-      <button class="subscribe-btn m-subscription">подписаться</button>
-    </div>
+    <SubscriptionForm />
   </div>
 </template>
 
 <style lang="scss" scoped>
  @import '../assets/scss/subscription';
+ @import '../assets/scss/subscription-form';
  @import '../assets/scss/main';
 </style>
 
 <script>
+import SubscriptionForm from './SubscriptionForm.vue'
+
   export default {
     name: 'Subscription',
+    components: {
+      SubscriptionForm,
+    },
   }
 </script>
