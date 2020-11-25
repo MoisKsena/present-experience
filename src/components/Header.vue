@@ -3,15 +3,15 @@
     
       <ul class="menu__list" id="menu">
         <li class="menu__list-item">
-          <router-link class="menu__list-item-link" to="/experience" exact>Выставка "Опыт настоящего"</router-link>
+          <router-link class="menu__list-item-link" to="/Experience" exact>Выставка "Опыт настоящего"</router-link>
         </li>
           
         <li class="menu__list-item">
-          <router-link class="menu__list-item-link" to="/pragmem">О проекте Прагмема</router-link>
+          <router-link class="menu__list-item-link" to="/Pragmem">О проекте Прагмема</router-link>
         </li>
         <li class="menu__list-item">
           
-          <router-link class="menu__list-item-link" to="/contacts">Контакты</router-link>
+          <router-link class="menu__list-item-link" to="/Contacts">Контакты</router-link>
         </li>
       </ul>
       

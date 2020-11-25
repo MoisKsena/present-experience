@@ -5,7 +5,7 @@
       <h1 class="pragmem__title">О проекте прагмема</h1>
       <div class="pragmem__title-sign">«Прагмема» является авторским проектом АНО «Пропповский центр»</div>
       <div class="pragmem__link">
-        <p class="pragmem__link-text">больше о проекте на сайте <a href="http://www.pragmema.ru/" class="pragmem__link-item">http://www.pragmema.ru/</a></p>
+        <p class="pragmem__link-text">больше о проекте на сайте <a href="http://www.pragmema.ru/" target="_blank" class="pragmem__link-item">http://www.pragmema.ru/</a></p>
       </div>
     </div>
     <div class="pragmem__wrapper">
@@ -26,7 +26,10 @@
       </div>
     </div>
 
-    <Subscription />
+    <Subscription v-show="subscriptionState == 'none'" 
+       v-on:subscriptionresult="subscriptionResult"
+       />
+    <ModalSuccess v-show="subscriptionState == 'success'" v-bind:state="subscriptionState"/>
   </div>
 
 </template>
@@ -38,12 +41,26 @@
 
 <script>
   import Subscription from './Subscription.vue'
+  import ModalSuccess from './ModalSuccess.vue'
 
 
   export default {
     name: 'Pragmem',
+    data () {
+      return {
+        subscriptionState: 'none',
+      };
+    },
     components: {
-      Subscription
+      Subscription,
+      ModalSuccess
+    },
+    methods:{
+      subscriptionResult ()
+      {
+        console.log('subscribed');
+        this.subscriptionState = 'success';        
+      },
     }
   }
 </script>

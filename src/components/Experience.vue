@@ -20,7 +20,7 @@
       </div>
       
     </div>
-    <div class="download-btn">скачать полный архив</div>
+    <a href="require('../assets/image/experience/foto-archive.7z')" download class="download-btn">скачать полный архив</a>
       
     
 

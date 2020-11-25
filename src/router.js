@@ -38,20 +38,20 @@ const router = new VueRouter({
       path: '/',
       name: 'Experience',
       component: Experience,
-      redirect: '/experience'
+      redirect: '/Experience'
     },
     {
-      path: '/experience',
+      path: '/Experience',
       name: 'Experience',
       component: Experience,
     },
     {
-      path: '/pragmem',
+      path: '/Pragmem',
       name: 'Pragmem',
       component: Pragmem,
     },
     {
-      path: '/contacts',
+      path: '/Contacts',
       name: 'Contacts',
       component: Contacts,
     }

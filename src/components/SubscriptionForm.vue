@@ -26,7 +26,7 @@
       Заполните поле
     </small>
     <small class="helper-text invalid"
-      v-else-if="$v.email.$dirty && !$v.email.mail">
+      v-else-if="$v.email.$dirty && !$v.email.email">
       Введите правильный адрес
     </small>
 

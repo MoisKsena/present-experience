@@ -42,7 +42,10 @@
       </div>
     </div>
 
-    <Subscription />
+    <Subscription v-show="subscriptionState == 'none'" 
+       v-on:subscriptionresult="subscriptionResult"
+       />
+    <ModalSuccess v-show="subscriptionState == 'success'" v-bind:state="subscriptionState"/>
   </div>
 </template>
 
@@ -53,11 +56,25 @@
 
 <script>
 import Subscription from './Subscription.vue'
+import ModalSuccess from './ModalSuccess.vue'
 
   export default {
     name: 'Contacts',
+    data () {
+      return {
+        subscriptionState: 'none',
+      };
+    },
     components: {
-      Subscription
+      Subscription,
+      ModalSuccess
+    },
+    methods:{
+      subscriptionResult ()
+      {
+        console.log('subscribed');
+        this.subscriptionState = 'success';        
+      },
     }
   }
 </script>

@@ -14,7 +14,9 @@
       </ul>
     </div>
 
-    <SubscriptionForm />
+    <SubscriptionForm 
+      v-on:subscriptionresult="subscriptionResult"
+      />
   </div>
 </template>
 
@@ -32,5 +34,11 @@ import SubscriptionForm from './SubscriptionForm.vue'
     components: {
       SubscriptionForm,
     },
+    methods: {
+      subscriptionResult ()
+      {
+         this.$emit('subscriptionresult');      
+      },
+    }
   }
 </script>

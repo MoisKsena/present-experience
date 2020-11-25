@@ -22,7 +22,7 @@
   text-transform: uppercase;
   height: 40px;
   outline: none;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .subscribe-btn:disabled {
@@ -59,7 +59,7 @@
   border-bottom: 1px solid red;
 }
 
-.error {
+.helper-text.invalid {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
