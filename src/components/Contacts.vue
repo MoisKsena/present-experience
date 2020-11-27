@@ -45,7 +45,7 @@
     <Subscription v-show="subscriptionState == 'none'" 
        v-on:subscriptionresult="subscriptionResult"
        />
-    <ModalSuccess v-show="subscriptionState == 'success'" v-bind:state="subscriptionState"/>
+    <ModalSuccess v-show="subscriptionState == 'success'" @close="closeModal"/>
   </div>
 </template>
 
@@ -75,6 +75,9 @@ import ModalSuccess from './ModalSuccess.vue'
         console.log('subscribed');
         this.subscriptionState = 'success';        
       },
+      closeModal() {
+        this.subscriptionState = 'none'; 
+      }
     }
   }
 </script>
