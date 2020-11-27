@@ -13,8 +13,8 @@
               </p>
               
             </div>     
-            <div class="modal__body-return" @click="close">
-              <router-link to="/experience">Вернуться на сайт</router-link>
+            <div class="modal__body-return">
+              <a @click="close">Вернуться на сайт</a>
             </div>
           </div>
       </div>
