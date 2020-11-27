@@ -8,6 +8,7 @@
       <div class="modal__body">
           <div class="modal__body-wrapper-success">
             <div class="modal__body-success">
+              <img src="@/assets/image/success.png" alt="success">
               <p>
               Ваше сообщение успешно отправлено!
               </p>
