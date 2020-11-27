@@ -39,10 +39,9 @@
             <p>
             Ваше сообщение успешно отправлено!
             </p>
-            
           </div>     
           <div class="modal__body-return" @click="close">
-            <router-link to="/experience">Вернуться на сайт</router-link>
+            <a @click="closeModal">Вернуться на сайт</a>
           </div>
         </div>
       </div>
@@ -50,12 +49,11 @@
       <div class="modal__body" v-show="state == 'fail'">
         <div class="modal__body-text">
           <p>
-           All is wrong
+           Что-то пошло не так! Попробуй еще раз!
           </p>
-          
         </div>     
         <div class="" @click="close">
-          <router-link to="/experience">Вернуться на сайт</router-link>
+          <a @click="closeModal">Вернуться на сайт</a>
         </div>
       </div>
 
@@ -90,6 +88,9 @@ import SubscriptionForm from './SubscriptionForm.vue'
       close() {
         this.$emit('close');
       },
+      closeModal: function () {
+        this.show = false
+      }
     },
   };
 </script>
