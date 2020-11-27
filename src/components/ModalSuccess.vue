@@ -11,10 +11,9 @@
               <p>
               Ваше сообщение успешно отправлено!
               </p>
-              
             </div>     
-            <div class="modal__body-return">
-              <a @click="close">Вернуться на сайт</a>
+            <div class="modal__body-return" @click="close">
+              <a>Вернуться на сайт</a>
             </div>
           </div>
       </div>
@@ -24,18 +23,16 @@
 
 <style lang="scss" scoped>
   @import '../assets/scss/modal';
-  //@import '../assets/scss/subscription';
-  //@import '../assets/scss/subscription-form';
 </style>
 
 <script>
 export default {
-   name: 'ModalSuccess',
+  name: 'ModalSuccess',
 
-    methods: {
-      close() {
-        this.$emit('close');
-      },
-    }
+  methods: {
+    close() {
+      this.$emit('close');
+    },
+  }
 }
 </script>
