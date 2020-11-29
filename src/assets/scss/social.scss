@@ -8,6 +8,10 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 17px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .social p {
@@ -24,6 +28,11 @@
 .logo {
   width: 104px;
   height: 104px;
+
+  @media (max-width: 768px) {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .social__icons {

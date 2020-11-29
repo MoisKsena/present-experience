@@ -4,9 +4,15 @@
     <h1 class="experience-page__title">выставка «опыт настоящего»</h1>
 
     <div class="experience-page__wrapper first">
+      <div>
+        <!-- <resize-sensor @resize="resize" width="1141px" height="800px"><img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"></resize-sensor> -->
+        <!-- <div v-resize @resize="onResize"><img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"></div> -->
+        <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board">
 
-      <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board">
 
+        <a href="require('../assets/image/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
+      </div>
+        
       <div class="experience-page__text first">
         <p>
           Материалом для выставки послужили изображения, сохранившиеся на пленках фотоархива Василия Стахевича Мариничева (1926 г., д. Подрезово Семеновского уезда
@@ -20,10 +26,7 @@
       </div>
       
     </div>
-    <a href="require('../assets/image/experience/foto-archive.7z')" download class="download-btn">скачать полный архив</a>
-      
-    
-
+  
     <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto">
 
     <div class="experience-page__foto-block">
@@ -88,7 +91,7 @@
       </div>
     </div>
     
-    <img src="@/assets/image/experience/foto-archive/15exp.png" alt="MARINICHEV-foto">
+    <img src="@/assets/image/experience/foto-archive/15exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
     
     <div class="experience-page__wrapper third">
 
@@ -175,7 +178,7 @@
       </div>
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/30exp.png" alt="MARINICHEV-foto">
+    <img src="@/assets/image/experience/foto-archive/30exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
     
     <div class="experience-page__wrapper fifth">
 
@@ -288,7 +291,7 @@
       </div>
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto">
+    <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto"  class="experience-page__big-foto">
 
     <div class="experience-page__wrapper seventh">
 
@@ -317,7 +320,7 @@
     
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/55exp.png" alt="MARINICHEV-foto">
+    <img src="@/assets/image/experience/foto-archive/55exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
 
     <div class="experience-page__foto-block-third margin-top">
       <div class="experience-page__foto-block-third big">
@@ -347,7 +350,7 @@
       </div>
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/67exp.png" alt="MARINICHEV-foto">
+    <img src="@/assets/image/experience/foto-archive/67exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
 
 
     <div class="experience-page__wrapper video">
@@ -360,14 +363,20 @@
             Выступление фольклориста и культурного антрополога Светланы Адоньевой и дизайнера Антона Лепашова на презентации  книги  "Свободное время.
             Из фотоархива В. С. Мариничева" в Санкт-Петербурге в Отель Indigo St. Petersburg на Чайковского:
           </div>
-            <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container">
-        </div>
 
+          <!-- <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container"> -->
+          <iframe width="523" height="278" src="https://www.youtube.com/embed/hlJgM7pnXJw"
+           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           </iframe>
+            <!-- srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a https://www.youtube.com/embed/hlJgM7pnXJw?autoplay=1><img src=https://img.youtube.com/vi/hlJgM7pnXJw/hqdefault.jpg><span>▶</span></a>" -->
+
+        </div>
         <div class="experience-page__video-block">
           <div class="experience-page__video-block-text">
               Память и тело в семейных фотографиях ХХ века (C. Адоньева)
           </div>
-          <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container">
+          <!-- <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container"> -->
+          <iframe width="523" height="278" src="https://www.youtube.com/embed/3fg8yXjz6mo" modestbranding="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       
       </div>
@@ -386,6 +395,7 @@
 //import Gallery from './Gallery.vue'
 //import Swiper from './Swiper.vue'
 //import AgileGal from './AgileGal.vue'
+//import ResizeSensor from "vue-resize-sensor";
 
 
 export default {
@@ -393,6 +403,21 @@ export default {
   components: {
     //Gallery, 
     //AgileGal,
+    // ResizeSensor
+  },
+  // data() {
+  //   return {
+  //     width: 0
+  //   };
+  // },
+  methods: {
+    // onResize(e) {
+    //   console.log("resize event", e.detail.width, e.detail.height);
+    //   this.width = e.detail.width;
+    // }
+    // resize({ width, height }) {
+    //   console.log(width, height);
+    // }
   }
 }
 
