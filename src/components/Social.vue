@@ -9,16 +9,16 @@
       <div class="social">
         <p>К нам можно присоединиться в социальных сетях</p>
         <div class="social__networks">
-          <a href="" class="social__icons">
+          <a href="https://vk.com/pragmema" target="_blank" class="social__icons">
             <img src="@/assets/image/social/vk.png" alt="vkontakte">
           </a>
-          <a href="" class="social__icons">
+          <a href="https://www.facebook.com/pragmema" target="_blank" class="social__icons">
             <img src="@/assets/image/social/facebook.png" alt="facebook">
           </a>
-          <a href="" class="social__icons">
+          <a href="https://www.instagram.com/pragmema" target="_blank" class="social__icons">
             <img src="@/assets/image/social/instagram.png" alt="instagram">
           </a>
-          <a href="" class="social__icons">
+          <a href="https://www.youtube.com/channel/UC582Ie0VVrNz47ihe-pmzKw" target="_blank" class="social__icons">
             <img src="@/assets/image/social/youtube.png" alt="youtube">
           </a>
         </div>
