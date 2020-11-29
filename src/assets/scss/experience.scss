@@ -20,6 +20,7 @@
 
   @media (max-width: 768px) {
     align-items: flex-start;
+    margin: 50px 0;
   }
 }
 
@@ -116,6 +117,10 @@
 .experience-page__wrapper.video {
   flex-direction: column;
   text-align: left;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
 }
 
 .experience-page__big-foto {
@@ -166,7 +171,7 @@
   text-align: left;
 
   @media (max-width: 768px) {
-    width: 576px;
+    width: 578px;
   }
 }
 
@@ -280,6 +285,10 @@
   justify-content: space-between;
   height: 570px;
   margin-bottom: 70px;
+
+  @media (max-width: 768px) {
+    height: 370px;
+  }
 }
 
 .experience-page__foto-block-third.margin-top {
@@ -299,11 +308,33 @@
 .experience-page__foto-block-third.small img {
   height: 254px;
   width: 590px;
+
+  @media (max-width: 768px) {
+    height: 172px;
+    width: 382px;
+  }
 }
 
 .experience-page__foto-block-third.middle img {
   height: 270px;
   width: 590px;
+
+  @media (max-width: 768px) {
+    height: 175px;
+    width: 382px;
+  }
+}
+
+.experience-page__foto-block-third.big {
+  @media (max-width: 768px) {
+    height: 370px;
+  }
+}
+
+.experience-page__foto-block-third.big img {
+  @media (max-width: 768px) {
+    width: 318px;
+  }
 }
 
 .experience-page__foto.fifth,
@@ -315,12 +346,32 @@
   height: 100%;
 }
 
+.experience-page__foto.fifth {
+  @media (max-width: 768px) {
+    height: 687px;
+  }
+}
+
+.experience-page__foto.seventh {
+  @media (max-width: 768px) {
+    height: 525px;
+  }
+}
+
 .experience-page__foto.fifth img {
   height: 515px;
+
+  @media (max-width: 768px) {
+    height: 334px;
+  }
 }
 
 .experience-page__foto.seventh img {
   height: 390px;
+
+  @media (max-width: 768px) {
+    height: 253px;
+  }
 }
 
 
@@ -345,6 +396,10 @@
   justify-content: space-between;
   margin-top: 53px;
   width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .experience-page__title-video {
@@ -357,6 +412,10 @@
   text-transform: uppercase;
   margin: 0;
   width: 100%;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .experience-page__video-block {
@@ -366,11 +425,28 @@
   margin-right: 30px;
   height: 423px;
   width: 523px;
+
+  @media (max-width: 768px) {
+    height: auto;
+    margin: 0;
+    width: 700px;
+  }
 }
 
-.experience-page__video-block img {
+.experience-page__video-block:first-child {
+  @media (max-width: 768px) {
+    padding-bottom: 50px;
+  }
+}
+
+.experience-page__video-block iframe {
   height: 278px;
   width: 523px;
+
+  @media (max-width: 768px) {
+    height: 333px;
+    width: 700px;
+  }
 }
 
 .experience-page__video-block:last-child {
@@ -386,4 +462,13 @@
   letter-spacing: 0.025em;
   margin-bottom: 33px;
   text-indent: 18px;
+}
+
+.experience-page__subscription-tablet {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding: 0 20px;
+  }
 }

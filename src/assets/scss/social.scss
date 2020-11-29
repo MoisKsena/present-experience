@@ -35,10 +35,22 @@
   }
 }
 
+.social__networks {
+  padding-top: 0;
+  
+  @media (max-width: 768px) {
+    padding-top: 25px;
+  }
+}
+
 .social__icons {
   height: 25px;
   width: 25px;
   padding-right: 10px;
+
+  @media (max-width: 768px) {
+    padding-right: 15px;
+  }
 }
 
 .subscribe-btn.m-social {

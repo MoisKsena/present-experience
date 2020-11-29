@@ -3,6 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
   width: 362px;
+
+  @media (max-width: 768px) {
+    width: 260px;
+  }
 }
 
 .subscribe-btn {

@@ -9,17 +9,28 @@
   padding: 34px 0;
   width: 100%;
   height: auto;
+
+  @media (max-width: 768px)  {
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
 }
 
 .subscription__text {
   text-align: left;
-  width: 690px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.025em;
+  width: 690px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    width: 380px;
+  }
 }
 
 .subscription__text p {

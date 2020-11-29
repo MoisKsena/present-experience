@@ -365,7 +365,7 @@
           </div>
 
           <!-- <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container"> -->
-          <iframe width="523" height="278" src="https://www.youtube.com/embed/hlJgM7pnXJw"
+          <iframe src="https://www.youtube.com/embed/hlJgM7pnXJw"
            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
            </iframe>
             <!-- srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a https://www.youtube.com/embed/hlJgM7pnXJw?autoplay=1><img src=https://img.youtube.com/vi/hlJgM7pnXJw/hqdefault.jpg><span>▶</span></a>" -->
@@ -376,19 +376,26 @@
               Память и тело в семейных фотографиях ХХ века (C. Адоньева)
           </div>
           <!-- <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container"> -->
-          <iframe width="523" height="278" src="https://www.youtube.com/embed/3fg8yXjz6mo" modestbranding="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/3fg8yXjz6mo" modestbranding="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       
       </div>
     </div>
     <!-- <AgileGal /> -->
     <!-- <Gallery /> -->
+    <div class="experience-page__subscription-tablet">
+      <Subscription v-show="subscriptionState == 'none'" 
+       v-on:subscriptionresult="subscriptionResult"
+       />
+      <ModalSuccess v-show="subscriptionState == 'success'" @close="closeModal"/>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
   @import '../assets/scss/experience';
   @import '../assets/scss/main';
+
 </style>
 
 <script>
@@ -397,6 +404,8 @@
 //import AgileGal from './AgileGal.vue'
 //import ResizeSensor from "vue-resize-sensor";
 
+import Subscription from './Subscription.vue'
+import ModalSuccess from './ModalSuccess.vue'
 
 export default {
   name: 'Experience',
@@ -404,20 +413,23 @@ export default {
     //Gallery, 
     //AgileGal,
     // ResizeSensor
+    Subscription,
+    ModalSuccess
   },
-  // data() {
-  //   return {
-  //     width: 0
-  //   };
-  // },
+  data () {
+    return {
+      subscriptionState: 'none',
+    };
+  },
   methods: {
-    // onResize(e) {
-    //   console.log("resize event", e.detail.width, e.detail.height);
-    //   this.width = e.detail.width;
-    // }
-    // resize({ width, height }) {
-    //   console.log(width, height);
-    // }
+    subscriptionResult ()
+    {
+      console.log('subscribed');
+      this.subscriptionState = 'success';        
+    },
+    closeModal() {
+      this.subscriptionState = 'none'; 
+    }
   }
 }
 
