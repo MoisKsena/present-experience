@@ -23,7 +23,7 @@
 
       <div class="pragmem__video">
         <!-- <img src="@/assets/image/pragmem.png" alt=""> -->
-        <iframe width="627" height="479" src="https://www.youtube.com/embed/LOUERS6YCYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/LOUERS6YCYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 

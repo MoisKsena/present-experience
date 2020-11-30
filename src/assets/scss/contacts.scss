@@ -4,42 +4,91 @@
 }
 
 .contacts__wrapper {
+  
   margin-top: 70px;
   width: 580px;
+
+  @media (max-width: 1024px) {
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 .contacts__main {
   display: flex;
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
 }
 
 .contacts__main-text {
   padding: 0;
   margin-left: 27px;
+
+  @media (max-width: 1024px) {
+    width: 294px;
+  }
 }
 
 .contacts__main-text-name {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 30px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .contacts__main-text-sign,
 .contacts__main-text-desc {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.025em;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 21px;
+  }
 }
 
 .contacts__main-text-sign {
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+
+  @media (max-width: 540px) {
+    padding-bottom: 0;
+  }
+}
+
+.contacts__main-text-sign.m-mobile {
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+  }
+}
+
+.contacts__main-text-sign.m-mobile a {
+  text-decoration: none;
+  color: #4F4F4F;
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+  }
 }
 
 .contacts__main-text-desc {
@@ -50,27 +99,55 @@
   padding-bottom: 20px;
 }
 
+.contacts__main-foto img {
+  height: 100px;
+  width: auto;
+
+  @media (max-width: 1024px) {
+    height: 150px;
+    width: auto;
+  }
+  
+}
+
 .contacts__list {
   margin-top: 70px;
+  margin-bottom: 0;
   padding: 0;
+
+  @media (max-width: 1024px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 .contacts__list-title {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
+  padding-bottom: 21px;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+    line-height: 27px;
+    padding-bottom: 25px;
+  }
 }
 
 .contacts__list-mail,
 .contacts__list-tel {
   display: flex;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   letter-spacing: 0.025em;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
 
   p {
     margin: 0;
@@ -84,4 +161,9 @@
 
 .contacts__list-mail {
   padding-bottom: 3px;
+
+  @media (max-width: 1024px) {
+    padding-bottom: 15px;
+  }
 }
+

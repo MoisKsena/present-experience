@@ -2,6 +2,8 @@
   <div class="contacts">
     <h1>Контакты</h1>
 
+    <span class="contacts__main-text-sign m-mobile">больше о проекте на сайте <a href=" http://www.pragmema.ru/" target="_blank" class="contacts__main-text-sign"> http://www.pragmema.ru/</a></span>
+
     <div class="contacts__wrapper">
       <div class="contacts__main">
         <div class="contacts__main-foto">

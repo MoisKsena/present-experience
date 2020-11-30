@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0 0 14px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 0;
   }
 }
@@ -15,8 +15,12 @@
 }
 
 .footer__promotion {
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding: 0 20px;
+  }
+
+  @media (max-width: 540px) {
+    flex-direction: column;
   }
 }
 
@@ -25,7 +29,7 @@
   justify-content: space-between;
   width: 100%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     flex: .5;
   }
@@ -34,8 +38,12 @@
 .announcements {
   flex: .5;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding-bottom: 25px;
+  }
+
+  @media (max-width: 540px) {
+    padding-top: 20px;
   }
 }
 
@@ -55,13 +63,13 @@
 }
 
 .projects__wrapper {
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
   }
 }
 
 .footer__title {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -70,8 +78,12 @@
   text-align: left;
   padding-bottom: 22px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     padding-bottom: 0;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 16px;
   }
 }
 
@@ -79,7 +91,7 @@
 .projects__item {
   width: 141px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 100%;
   }
 }
@@ -88,14 +100,14 @@
 .projects__item-image {
   display: block;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: none;
   }
 }
 
 .announcements__item-text,
 .projects__item-text {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -103,15 +115,20 @@
   text-align: left;
   margin-top: 12px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     font-size: 16px;
     line-height: 21px;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 
 .footer__copyright {
   display: flex;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -120,8 +137,13 @@
   margin-top: 60px;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin: 15px 20px;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 8px;
+    margin: 15px 30px 10px;
   }
 }
 
@@ -133,7 +155,7 @@
 .footer__social {
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: flex;
     flex: .5;
     flex-direction: column;
@@ -144,10 +166,14 @@
 .footer__line {
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: block;
     background-color: #EDD500;
     height: 1px;
     margin: 66px -14px 0;
+  }
+
+  @media (max-width: 540px) {
+    margin: 20px -10px 0;
   }
 }
