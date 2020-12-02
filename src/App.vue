@@ -32,4 +32,9 @@ export default {
 <style lang="scss" scoped>
   @import './assets/scss/main';
   @import './assets/scss/fonts';
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
 </style>

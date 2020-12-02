@@ -1,5 +1,6 @@
 <template>
   <div class="contacts">
+    
     <h1>Контакты</h1>
 
     <span class="contacts__main-text-sign m-mobile">больше о проекте на сайте <a href=" http://www.pragmema.ru/" target="_blank" class="contacts__main-text-sign"> http://www.pragmema.ru/</a></span>
@@ -53,6 +54,7 @@
 
 <style lang="scss" scoped>
  @import '../assets/scss/contacts';
+ @import '../assets/scss/header';
  @import '../assets/scss/main';
 </style>
 

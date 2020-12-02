@@ -1,0 +1,53 @@
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active до версии 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.hamburger-menu {
+  display: none;
+
+  @media (max-width: 540px) {
+    display: block;
+  }
+}
+
+.menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+}
+.menu__box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 3;
+  background-color: #ffffff;
+  color: #3C3C3C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__box ul {
+  padding: 0;
+  margin: 0;
+  text-align: end;
+}
+
+.menu__box ul li {
+  padding-bottom: 10px;
+}

@@ -7,6 +7,18 @@
   @media (max-width: 768px) {
     width: 260px;
   }
+
+  @media (max-width: 540px) {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+.subscription-form input {
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .subscribe-btn {
@@ -27,6 +39,10 @@
   height: 40px;
   outline: none;
   margin-top: 30px;
+
+  @media (max-width: 540px) {
+    margin-top: 20px;
+  }
 }
 
 .subscribe-btn:disabled {

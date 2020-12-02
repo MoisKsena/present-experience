@@ -38,22 +38,26 @@ const router = new VueRouter({
       path: '/',
       name: 'Experience',
       component: Experience,
-      redirect: '/Experience'
+      redirect: '/Experience',
+      meta: { title: 'Выставка Опыт настоящего' }
     },
     {
       path: '/Experience',
       name: 'Experience',
       component: Experience,
+      meta: { title: 'Выставка Опыт настоящего' }
     },
     {
       path: '/Pragmem',
       name: 'Pragmem',
       component: Pragmem,
+      meta: { title: 'Проект Прагмема' }
     },
     {
       path: '/Contacts',
       name: 'Contacts',
       component: Contacts,
+      meta: { title: 'Контакты' }
     }
   ]
 })

@@ -15,6 +15,12 @@
     margin-bottom: 50px;
     margin-top: 0;
   }
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+    //width: 260px;
+    width: 100%;
+  }
 }
 
 .subscription__text {
@@ -25,11 +31,19 @@
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 0.025em;
+  padding: 0;
   width: 690px;
 
   @media (max-width: 1024px) {
     font-size: 16px;
     width: 380px;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    width: 100%;
   }
 }
 
@@ -41,6 +55,10 @@
 
 .subscription__text ul {
   margin: 0;
+
+  @media (max-width: 540px) {
+    padding-left: 17px;
+  }
 }
 
 .subscribe-btn.m-social {
