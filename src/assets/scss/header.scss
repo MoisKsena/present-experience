@@ -5,7 +5,9 @@
 
   @media (max-width: 540px) {
     justify-content: center;
+    height: 47px;
     margin-left: 20px;
+    width: 182px;
   }
 }
 
@@ -77,6 +79,7 @@
 
   @media (max-width: 1024px) {
     margin-left: 31px;
+    position: relative;
     width: 50px;
   }
 

@@ -3,6 +3,7 @@
     <div class="header-wrapper">
       <Header/><Social/>
     </div>
+    <Experience/>
     <router-view></router-view>
     <footer>
       <Footer />
@@ -34,6 +35,8 @@ export default {
   @import './assets/scss/fonts';
 
   body {
+    display: block;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }

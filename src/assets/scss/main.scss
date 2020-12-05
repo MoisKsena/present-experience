@@ -13,7 +13,7 @@ body {
   padding-top: 31px;
 
   @media (max-width: 1024px) {
-    max-width: 702px;
+    max-width: 738px;
   }
 
   @media (max-width: 540px) {
@@ -29,6 +29,14 @@ body {
   flex-wrap: nowrap;
   position: relative;
   max-width: 1140px;
+
+  @media (max-width: 1024px) {
+    max-width: 621px;
+  }
+
+  @media (max-width: 540px) {
+    justify-content: center;
+  }
 }
 
 h1 {

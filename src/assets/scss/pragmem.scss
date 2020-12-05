@@ -21,6 +21,10 @@
     margin-bottom: 50px;
     height: auto;
   }
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
 }
 
 .pragmem__title {
@@ -41,6 +45,11 @@
     line-height: 21px;
     letter-spacing: 0.025em;
   }
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 .pragmem__link {
@@ -52,6 +61,11 @@
   font-size: 12px;
   margin: 0;
   padding: 0;
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 .pragmem__link-text {
@@ -91,6 +105,13 @@
     line-height: 21px;
     width: 294px;
   }
+
+  @media (max-width: 540px) {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 50px;
+    order: 2;
+  }
 }
 
 .pragmem__main-text p {
@@ -109,5 +130,16 @@
   @media (max-width: 1024px) {
     height: 338px;
     width: 400px;
+  }
+
+  @media (max-width: 540px) {
+    height: 135px;
+    width: 260px;
+  }
+}
+
+.pragmem__video {
+  @media (max-width: 540px) {
+    order: 1;
   }
 }
