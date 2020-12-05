@@ -6,6 +6,11 @@
   @media (max-width: 1024px) {
     margin-top: 50px;
   }
+
+  @media (max-width: 1024px) {
+    display: block;
+    width: 100%;
+  }
 }
 
 .experience-page__title {
@@ -130,6 +135,7 @@
 
   @media (max-width: 540px) {
     flex-direction: column;
+    margin: 0;
   }
 }
 
@@ -148,6 +154,10 @@
   @media (max-width: 1024px) {
     height: auto;
   }
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
 }
 
 
@@ -164,11 +174,23 @@
   }
 }
 
+.experience-page__wrapper.sixth img {
+  @media (max-width: 540px) {
+    height: 320px;
+    width: 300px;
+  }
+}
+
 .experience-page__wrapper.seventh {
   height: 800px;
 
   @media (max-width: 1024px) {
     height: auto;
+  }
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 }
 
@@ -192,6 +214,23 @@
 
   @media (max-width: 540px) {
     height: 184px;
+    width: 300px;
+  }
+}
+
+.experience-page__big-foto.mobile {
+  @media (max-width: 540px) {
+    height: 700px;
+    position: relative;
+    right: 170px;
+    width: auto;
+  }
+}
+
+.experience-page__big-foto.mobile-wrapper {
+  @media (max-width: 540px) {
+    overflow: hidden;
+    height: 700px;
     width: 300px;
   }
 }
@@ -223,6 +262,10 @@
   }
 }
 
+.experience-page__foto-block.small img:first-child {
+  padding-top: 20px;
+}
+
 .experience-page__foto-block.middle {
   display: flex;
   justify-content: space-between;
@@ -237,10 +280,6 @@
   @media (max-width: 540px) {
     margin: 20px 0 0;
   }
-}
-
-.experience-page__foto-block.middle:not(:last-child) {
-  
 }
 
 .experience-page__foto-block img {
@@ -315,6 +354,10 @@
 
   @media (max-width: 1024px) {
     padding-top: 0;
+  }
+
+  @media (max-width: 540px) {
+    padding-top: 20px;
   }
 }
 
@@ -413,12 +456,16 @@
   @media (max-width: 540px) {
     flex-direction: column;
     height: auto;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
 }
 
 .experience-page__foto-block-third.margin-top {
   margin-top: 70px;
+
+  @media (max-width: 540px) {
+    margin-top: 30px;
+  }
 }
 
 .experience-page__foto-block-third img {
@@ -429,6 +476,12 @@
 .experience-page__foto-block-third.middle {
   display: flex;
   flex-direction: column;
+}
+
+.experience-page__foto-block-third.middle {
+  @media (max-width: 540px) {
+    margin: 0;
+  }
 }
 
 .experience-page__foto-block-third.small {
@@ -457,7 +510,9 @@
 }
 
 .experience-page__foto-block-third.small img:not(:last-child),
-.experience-page__foto.fifth img:not(:last-child) {
+.experience-page__foto.fifth img:not(:last-child),
+.experience-page__foto.seventh img:not(:last-child),
+.experience-page__foto-block-third.middle img:not(:last-child) {
   padding-bottom: 20px;
 }
 
@@ -469,6 +524,11 @@
     height: 175px;
     width: 382px;
   }
+
+  @media (max-width: 540px) {
+    height: auto;
+    width: 300px;
+  }
 }
 
 .experience-page__foto-block-third.big {
@@ -478,6 +538,7 @@
 
   @media (max-width: 540px) {
     height: 100%;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -515,6 +576,10 @@
   @media (max-width: 1024px) {
     height: 525px;
   }
+
+  @media (max-width: 540px) {
+    height: auto;
+  }
 }
 
 .experience-page__foto.fifth img {
@@ -536,12 +601,29 @@
   @media (max-width: 1024px) {
     height: 253px;
   }
+
+  @media (max-width: 540px) {
+    height: auto;
+    width: 300px;
+  }
 }
 
 
 .experience-page__text.fifth p:not(:last-child),
 .experience-page__text.sixth p:not(:last-child) {
   padding-bottom: 20px;
+}
+
+.experience-page__text.sixth {
+  @media (max-width: 540px) {
+    padding-top: 20px;
+  }
+}
+
+.experience-page__text.fifth {
+  @media (max-width: 540px) {
+    padding-bottom: 20px;
+  }
 }
 
 .experience-page__foto-big-alone {
@@ -552,7 +634,7 @@
     width: 740px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 540px) {
     margin-top: 30px;
     height: 184px;
     width: 300px;
@@ -586,6 +668,10 @@
   @media (max-width: 1024px) {
     font-size: 24px;
   }
+
+  @media (max-width: 540px) {
+    font-size: 16px;
+  }
 }
 
 .experience-page__video-block {
@@ -600,6 +686,10 @@
     height: auto;
     margin: 0;
     width: 700px;
+  }
+
+  @media (max-width: 540px) {
+    width: 100%;
   }
 }
 
@@ -617,6 +707,11 @@
     height: 333px;
     width: 700px;
   }
+
+  @media (max-width: 540px) {
+    height: 135px;
+    width: 260px;
+  }
 }
 
 .experience-page__video-block:last-child {
@@ -632,6 +727,11 @@
   letter-spacing: 0.025em;
   margin-bottom: 33px;
   text-indent: 18px;
+
+  @media (max-width: 540px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .experience-page__subscription-tablet {

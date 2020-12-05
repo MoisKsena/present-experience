@@ -3,11 +3,17 @@
   width: 100%;
   height: auto;
 
+  @media (max-width: 1024px) {
+    width: 621px;
+    height: 47px;
+  }
+
   @media (max-width: 540px) {
+    align-items: center;
     justify-content: center;
     height: 47px;
-    margin-left: 20px;
-    width: 182px;
+    order: 2;
+    min-width: 230px;
   }
 }
 
@@ -84,9 +90,8 @@
   }
 
   @media (max-width: 540px) {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    order: 1;
     margin-left: 0;
     margin-right: 20px;
   }
@@ -101,9 +106,9 @@
     border-bottom: 1px solid #EDD500;
     display: flex;
     justify-content: center;
-    min-width: 182px;
-    margin: 0;
-    padding: 14px 0;
+    height: 47px;
+    width: 182px;
+    padding: 0;
   }
   
 }

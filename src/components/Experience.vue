@@ -291,7 +291,9 @@
       </div>
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto"  class="experience-page__big-foto">
+    <div class="experience-page__big-foto mobile-wrapper">
+        <img src="@/assets/image/experience/foto-archive/53exp.png" alt="MARINICHEV-foto"  class="experience-page__big-foto mobile">
+    </div>
 
     <div class="experience-page__wrapper seventh">
 

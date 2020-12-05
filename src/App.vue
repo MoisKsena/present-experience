@@ -3,7 +3,6 @@
     <div class="header-wrapper">
       <Header/><Social/>
     </div>
-    <Experience/>
     <router-view></router-view>
     <footer>
       <Footer />

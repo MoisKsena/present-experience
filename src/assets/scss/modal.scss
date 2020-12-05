@@ -14,7 +14,11 @@
   background: #FFFFFF;
   padding: 42px 99px;
   margin: 0 auto;
-  //width: 587px;
+
+  @media (max-width: 540px) {
+    padding: 0;
+    width: 300px;
+  }
 }
 
 .modal__btn-close {
@@ -76,6 +80,10 @@
   margin: 0 auto;
   padding: 155px 112px;
   text-align: center;
+
+  @media (max-width: 540px) {
+    padding: 50px;
+  }
 }
 
 .modal__body-success p {
