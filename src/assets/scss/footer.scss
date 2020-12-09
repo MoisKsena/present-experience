@@ -96,6 +96,21 @@
   }
 }
 
+.projects__item a,
+.announcements__item a {
+  text-decoration: none;
+    color: inherit;
+}
+
+.announcements__item a:hover,
+.announcements__item a:focus,
+.announcements__item a:active,
+.projects__item a:hover,
+.projects__item a:focus,
+.projects__item a:active {
+  color: #EDD500;
+}
+
 .announcements__item-image,
 .projects__item-image {
   display: block;
