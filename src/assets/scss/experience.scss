@@ -67,6 +67,11 @@
   }
 }
 
+.experience-page__download-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .experience-page__download-btn {
   color: #B0B0B0;
   cursor: pointer;
@@ -76,13 +81,16 @@
   font-size: 12px;
   outline: none;
   text-decoration: none;
-  position: absolute;
-  left: 0;
-  bottom: -18px;
 
   @media (max-width: 1024px) {
     font-size: 10px;
-    top: 326px;
+    padding-top: 14px;
+  }
+
+  @media (max-width: 540px) {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
   }
 }
 
@@ -322,9 +330,14 @@
     line-height: 27px;
     padding: 19px 0;
   }
+
+  @media (max-width: 540px) {
+    padding-right: 9px;
+  }
 }
 
 .experience-page__text {
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -340,6 +353,7 @@
   }
 
   @media (max-width: 540px) {
+    padding: 0 20px;
     font-size: 14px;
     width: 100%;
   }
@@ -354,6 +368,7 @@
 
   @media (max-width: 540px) {
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
