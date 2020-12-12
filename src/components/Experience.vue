@@ -21,18 +21,20 @@
           которые с тобой его разделяют. 
         </p>
         <p>
-          Фотографии из архива В.&nbsp;С.&nbsp;Мариничева, старые снимки 1950-х — начала 1960-х гг. Текст — Светлана Адоньева, куратор проекта.
+          Фотографии из архива В. С. Мариничева, старые снимки 1950-х — начала 1960-х гг. Текст — Светлана Адоньева, куратор проекта.
         </p>
       </div>
       
     </div>
   
     <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto">
-
+ 
     <div class="experience-page__foto-block">
       <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
       <img src="@/assets/image/experience/foto-archive/3exp.png" alt="MARINICHEV-foto">
       <img src="@/assets/image/experience/foto-archive/4exp.png" alt="MARINICHEV-foto">
+
+      <!-- <Gallery /> -->
     </div>
 
     <div class="experience-page__quote">
