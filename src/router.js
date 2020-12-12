@@ -7,6 +7,7 @@ import Contacts from './components/Contacts.vue'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
+  base: "/app/",
   mode: 'history',
   routes: [
     {

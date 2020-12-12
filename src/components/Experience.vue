@@ -13,7 +13,7 @@
         <a href="require('../assets/image/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
       </div>
         
-      <div class="experience-page__text first">;
+      <div class="experience-page__text first">
         <p>
           Материалом для выставки послужили изображения, сохранившиеся на пленках фотоархива Василия Стахевича Мариничева (1926 г., д. Подрезово Семеновского уезда
           Нижегородской губернии — 2002 г. Петербург), многие годы работавшего в одном<br />из институтов Ленинграда заведующим фотолабораторией. Из 5000 изображений<br />мы
@@ -30,11 +30,11 @@
     <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto">
  
     <div class="experience-page__foto-block">
-      <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
+      <!-- <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
       <img src="@/assets/image/experience/foto-archive/3exp.png" alt="MARINICHEV-foto">
-      <img src="@/assets/image/experience/foto-archive/4exp.png" alt="MARINICHEV-foto">
+      <img src="@/assets/image/experience/foto-archive/4exp.png" alt="MARINICHEV-foto"> -->
 
-      <!-- <Gallery /> -->
+      <Gallery />
     </div>
 
     <div class="experience-page__quote">
@@ -403,7 +403,7 @@
 </style>
 
 <script>
-//import Gallery from './Gallery.vue'
+import Gallery from './Gallery.vue'
 //import Swiper from './Swiper.vue'
 //import AgileGal from './AgileGal.vue'
 //import ResizeSensor from "vue-resize-sensor";
@@ -414,7 +414,7 @@ import ModalSuccess from './ModalSuccess.vue'
 export default {
   name: 'Experience',
   components: {
-    //Gallery, 
+    Gallery, 
     //AgileGal,
     // ResizeSensor
     Subscription,

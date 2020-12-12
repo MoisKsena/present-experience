@@ -9,7 +9,7 @@
         v-for="(image, imageIndex) in images"
         :key="imageIndex"
         @click="index = imageIndex"
-        :style="{ backgroundImage: 'url(' + image + ')', width: '156px', height: '103px' }"
+        :style="{ backgroundImage: 'url(' + image + ')', width: '353px', height: '260px' }"
       ></div>
      
     </div>
@@ -27,10 +27,9 @@
     data: function () {
       return {
         images: [
-          require('@/assets/image/lotus/msu6.jpg'),
-          require('@/assets/image/lotus/Lotus_2.jpg'),
-          require('@/assets/image/lotus/Lotus_3.jpg'),
-          require('@/assets/image/lotus/Lotus_4.jpg')
+          require('@/assets/image/experience/foto-archive/2exp.jpg'),
+          require('@/assets/image/experience/foto-archive/3exp.png'),
+          require('@/assets/image/experience/foto-archive/4exp.png')
         ],
         index: null
       };
