@@ -28,8 +28,8 @@
       return {
         images: [
           require('@/assets/image/experience/foto-archive/2exp.jpg'),
-          require('@/assets/image/experience/foto-archive/3exp.png'),
-          require('@/assets/image/experience/foto-archive/4exp.png')
+          require('@/assets/image/experience/foto-archive/3exp.jpg'),
+          require('@/assets/image/experience/foto-archive/4exp.jpg')
         ],
         index: null
       };
