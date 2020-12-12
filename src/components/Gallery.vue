@@ -9,7 +9,7 @@
         v-for="(image, imageIndex) in images"
         :key="imageIndex"
         @click="index = imageIndex"
-        :style="{ backgroundImage: 'url(' + image + ')', width: '353px', height: '260px' }"
+        :style="{ backgroundImage: 'url(' + image + ')'}"
       ></div>
      
     </div>

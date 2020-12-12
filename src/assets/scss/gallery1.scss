@@ -1,0 +1,37 @@
+.gallerybig {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin: 0;
+}
+
+.image {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #ebebeb;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 648px;
+  height: 485px; 
+
+  @media (max-width: 1024px) {
+    width: 420px;
+    height: 314px;
+  }
+
+  @media (max-width: 540px) {
+    width: 300px;
+    height: 223px;
+  }
+}
+
+.blueimp-gallery {
+  background: #fff;
+}
+
+#blueimp-gallery {
+  display: none;
+}

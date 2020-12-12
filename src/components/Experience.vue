@@ -5,11 +5,9 @@
 
     <div class="experience-page__wrapper first">
       <div class="experience-page__download-wrapper">
-        <!-- <resize-sensor @resize="resize" width="1141px" height="800px"><img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"></resize-sensor> -->
-        <!-- <div v-resize @resize="onResize"><img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"></div> -->
-        <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board">
-
-
+        
+        <!-- <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"> GalleryBig1 -->
+        <Gallery1 />
         <a href="require('../assets/image/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
       </div>
         
@@ -21,7 +19,7 @@
           которые с тобой его разделяют. 
         </p>
         <p>
-          Фотографии из архива В. С. Мариничева, старые снимки 1950-х — начала 1960-х гг. Текст — Светлана Адоньева, куратор проекта.
+          Фотографии из архива В.&#160;С.&#160;Мариничева, старые снимки 1950-х — начала 1960-х гг. Текст — Светлана Адоньева, куратор проекта.
         </p>
       </div>
       
@@ -404,6 +402,7 @@
 
 <script>
 import Gallery from './Gallery.vue'
+import Gallery1 from './Gallery1.vue'
 //import Swiper from './Swiper.vue'
 //import AgileGal from './AgileGal.vue'
 //import ResizeSensor from "vue-resize-sensor";
@@ -414,11 +413,12 @@ import ModalSuccess from './ModalSuccess.vue'
 export default {
   name: 'Experience',
   components: {
-    Gallery, 
-    //AgileGal,
-    // ResizeSensor
+    Gallery,
+    Gallery1, 
     Subscription,
     ModalSuccess
+    //AgileGal,
+    // ResizeSensor
   },
   data () {
     return {
