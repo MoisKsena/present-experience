@@ -21,7 +21,7 @@
 </template>
 
 <style lang="scss" scoped>
- @import '../assets/scss/subscription';
+ @import '../assets/scss/Subscription';
  @import '../assets/scss/subscription-form';
  @import '../assets/scss/main';
 </style>

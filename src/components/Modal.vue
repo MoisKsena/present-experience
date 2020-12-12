@@ -64,7 +64,7 @@
 
 <style lang="scss" scoped>
   @import '../assets/scss/modal';
-  @import '../assets/scss/subscription';
+  @import '../assets/scss/Subscription';
   @import '../assets/scss/subscription-form';
 </style>
 
