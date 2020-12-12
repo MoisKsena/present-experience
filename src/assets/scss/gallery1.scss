@@ -1,4 +1,4 @@
-.gallerybig {
+.gallery {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -34,4 +34,10 @@
 
 #blueimp-gallery {
   display: none;
+}
+
+.blueimp-gallery.next,
+.blueimp-gallery.prev {
+  cursor: pointer;
+  outline: none;
 }
