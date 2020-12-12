@@ -7,8 +7,9 @@
     margin-top: 50px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 540px) {
     display: block;
+    text-align: center;
     width: 100%;
   }
 }
@@ -33,6 +34,7 @@
   }
 
   @media (max-width: 540px) {
+    align-items: center;
     margin: 30px 0;
   }
 }
@@ -345,6 +347,7 @@
   line-height: 23px;
   letter-spacing: 0.025em;
   text-indent: 18px;
+  text-align: left;
   width: 453px;
 
   @media (max-width: 1024px) {

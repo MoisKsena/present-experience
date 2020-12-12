@@ -35,3 +35,10 @@
 #blueimp-gallery {
   display: none;
 }
+
+.prev,
+.next {
+  @media (max-width: 540px) {
+    display: none;
+  }
+}
