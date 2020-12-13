@@ -1,8 +1,6 @@
 <template>
-  <div class="gallery">
+  <div class="gallery1">
     
-    <div>
-
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div
         class="image"
@@ -11,13 +9,12 @@
         @click="index = imageIndex"
         :style="{ backgroundImage: 'url(' + image + ')'}"
       ></div>
-     
-    </div>
+   
   </div>
 </template>
 
-<style lang="scss" scoped>
-  @import '../assets/scss/gallery';
+<style lang="scss" scoped> 
+ @import '../assets/scss/gallery1';
 </style>
 
 <script>
@@ -39,6 +36,3 @@
   }
 </script> 
 
-<style lang="scss" scoped> 
- @import '../assets/scss/gallery1';
-</style>

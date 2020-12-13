@@ -1,15 +1,10 @@
-.gallery {
+.gallery2 {
   align-items: center;
   display: flex;
   box-sizing: border-box;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 0;
   width: 100%;
-
-  @media (max-width: 540px) {
-    flex-direction: column;
-  }
 }
 
 .image {
@@ -21,23 +16,17 @@
   margin: 0;
   cursor: pointer;
   outline: none;
-  height: 260px; 
-  width: 353px; 
+  width: 648px;
+  height: 500px;
 
   @media (max-width: 1024px) {
-    width: 230px;
-    height: 168px;
+    width: 420px;
+    height: 325px;
   }
 
   @media (max-width: 540px) {
     width: 300px;
-    height: 221px;
-  }
-}
-
-.image:not(:last-child) {
-  @media (max-width: 540px) {
-    margin-bottom: 19px;
+    height: 232px;
   }
 }
 
@@ -47,4 +36,10 @@
 
 #blueimp-gallery {
   display: none;
+}
+
+.blueimp-gallery.next,
+.blueimp-gallery.prev {
+  cursor: pointer;
+  outline: none;
 }

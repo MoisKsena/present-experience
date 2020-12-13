@@ -1,6 +1,8 @@
 <template>
-  <div class="gallery">
+  <div class="gallery-big">
     
+    <div>
+
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div
         class="image"
@@ -10,11 +12,12 @@
         :style="{ backgroundImage: 'url(' + image + ')'}"
       ></div>
      
+    </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
-  @import '../assets/scss/gallery';
+<style lang="scss" scoped> 
+ @import '../assets/scss/gallery-big';
 </style>
 
 <script>
@@ -24,9 +27,7 @@
     data: function () {
       return {
         images: [
-          require('@/assets/image/experience/foto-archive/2exp.jpg'),
-          require('@/assets/image/experience/foto-archive/3exp.jpg'),
-          require('@/assets/image/experience/foto-archive/4exp.jpg')
+          require('@/assets/image/experience/foto-archive/main_exp.jpg')
         ],
         index: null
       };
@@ -37,3 +38,4 @@
     },
   }
 </script> 
+

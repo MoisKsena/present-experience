@@ -8,7 +8,7 @@
         
         <!-- <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"> GalleryBig1 -->
         <Gallery1 />
-        <a href="require('../assets/image/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
+        <a href="require('/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
       </div>
         
       <div class="experience-page__text first">
@@ -17,8 +17,9 @@
       </div>
       
     </div>
-  
-    <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto">
+
+    <GalleryBig />
+    <!-- <img src="@/assets/image/experience/foto-archive/main_exp.png" alt="main-foto" class="experience-page__big-foto"> -->
  
     <div class="experience-page__foto-block">
       <!-- <img src="@/assets/image/experience/foto-archive/2exp.png" alt="MARINICHEV-foto">
@@ -59,7 +60,8 @@
         </p>
       </div>
       
-      <img src="@/assets/image/experience/foto-archive/5exp.png" alt="foto-board">
+       <Gallery2 />
+      <!-- <img src="@/assets/image/experience/foto-archive/5exp.png" alt="foto-board"> -->
 
     </div>
 
@@ -393,6 +395,8 @@
 <script>
 import Gallery from './Gallery.vue'
 import Gallery1 from './Gallery1.vue'
+import Gallery2 from './Gallery2.vue'
+import GalleryBig from './GalleryBig.vue'
 //import Swiper from './Swiper.vue'
 //import AgileGal from './AgileGal.vue'
 //import ResizeSensor from "vue-resize-sensor";
@@ -404,7 +408,9 @@ export default {
   name: 'Experience',
   components: {
     Gallery,
-    Gallery1, 
+    Gallery1,
+    Gallery2,
+    GalleryBig, 
     Subscription,
     ModalSuccess
     //AgileGal,

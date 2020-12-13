@@ -1,4 +1,4 @@
-.gallery1 {
+.gallery-big {
   align-items: center;
   display: flex;
   box-sizing: border-box;
@@ -16,30 +16,16 @@
   margin: 0;
   cursor: pointer;
   outline: none;
-  width: 648px;
-  height: 485px; 
+  height: 700px; 
+  width: 1140px;
 
   @media (max-width: 1024px) {
-    width: 420px;
-    height: 314px;
+    width: 740px;
+    height: 454px;
   }
 
   @media (max-width: 540px) {
     width: 300px;
-    height: 223px;
+    height: 184px;
   }
-}
-
-.blueimp-gallery {
-  background: #fff;
-}
-
-#blueimp-gallery {
-  display: none;
-}
-
-.blueimp-gallery.next,
-.blueimp-gallery.prev {
-  cursor: pointer;
-  outline: none;
 }
