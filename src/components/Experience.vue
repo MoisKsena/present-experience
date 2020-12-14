@@ -67,27 +67,31 @@
 
     <div class="experience-page__foto">
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/6exp.png" alt="MARINICHEV-foto">
+        <Gallery3 />
+        <!-- <img src="@/assets/image/experience/foto-archive/6exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/7exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/8exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/8exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/9exp.png" alt="MARINICHEV-foto">
+        <Gallery4 />
+        <!-- <img src="@/assets/image/experience/foto-archive/9exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/10exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/11exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/11exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/12exp.png" alt="MARINICHEV-foto">
+        <Gallery5 />
+        <!-- <img src="@/assets/image/experience/foto-archive/12exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/13exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/14exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/14exp.png" alt="MARINICHEV-foto"> -->
       </div>
     </div>
     
-    <img src="@/assets/image/experience/foto-archive/15exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
+    <GalleryBig2 />
+    <!-- <img src="@/assets/image/experience/foto-archive/15exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto"> -->
     
     <div class="experience-page__wrapper third">
-
-      <img src="@/assets/image/experience/foto-archive/16exp.png" alt="foto-board">
+      <Gallery6 />
+      <!-- <img src="@/assets/image/experience/foto-archive/16exp.png" alt="foto-board"> -->
 
       <div class="experience-page__text third">
         <p>
@@ -396,10 +400,12 @@
 import Gallery from './Gallery.vue'
 import Gallery1 from './Gallery1.vue'
 import Gallery2 from './Gallery2.vue'
+import Gallery3 from './Gallery3.vue'
+import Gallery4 from './Gallery4.vue'
+import Gallery5 from './Gallery5.vue'
+import Gallery6 from './Gallery6.vue'
 import GalleryBig from './GalleryBig.vue'
-//import Swiper from './Swiper.vue'
-//import AgileGal from './AgileGal.vue'
-//import ResizeSensor from "vue-resize-sensor";
+import GalleryBig2 from './GalleryBig2.vue'
 
 import Subscription from './Subscription.vue'
 import ModalSuccess from './ModalSuccess.vue'
@@ -410,11 +416,14 @@ export default {
     Gallery,
     Gallery1,
     Gallery2,
-    GalleryBig, 
+    Gallery3,
+    Gallery4,
+    Gallery5,
+    Gallery6,
+    GalleryBig,
+    GalleryBig2, 
     Subscription,
     ModalSuccess
-    //AgileGal,
-    // ResizeSensor
   },
   data () {
     return {
