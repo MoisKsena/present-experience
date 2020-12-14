@@ -1,4 +1,4 @@
-.gallery-big {
+.gallery.big {
   align-items: center;
   display: flex;
   box-sizing: border-box;
@@ -28,4 +28,17 @@
     width: 300px;
     height: 184px;
   }
+}
+
+.blueimp-gallery {
+  background: #fff;
+}
+
+#blueimp-gallery {
+  display: none;
+}
+
+.blueimp-gallery>.next,
+.blueimp-gallery>.next {
+  outline: none;
 }

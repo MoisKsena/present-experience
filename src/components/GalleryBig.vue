@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery-big">
+  <div class="gallery big">
     
     <div>
 
@@ -27,7 +27,7 @@
     data: function () {
       return {
         images: [
-          require('@/assets/image/experience/foto-archive/main_exp.jpg')
+          require('@/assets/image/experience/foto-archive/main_exp.png')
         ],
         index: null
       };
