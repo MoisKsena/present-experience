@@ -61,6 +61,9 @@ export default {
       },
       closeModal() {
         this.isModalVisible = false;
+      },
+      close() {
+        this.$emit('close');
       }
     },
 }

@@ -27,7 +27,7 @@
     data: function () {
       return {
         images: [
-          require('@/assets/image/experience/foto-archive/main_exp.png')
+          require('@/assets/image/experience/foto-archive/main_exp.jpg')
         ],
         index: null
       };

@@ -8,7 +8,7 @@
         
         <!-- <img src="@/assets/image/experience/foto-archive/1exp.png" alt="foto-board"> GalleryBig1 -->
         <Gallery1 />
-        <a href="require('/experience/foto-archive.7z')" download class="experience-page__download-btn">скачать полный архив</a>
+        <a href="/archive/foto-archive.7z" download class="experience-page__download-btn">скачать полный архив</a>
       </div>
         
       <div class="experience-page__text first">
@@ -359,9 +359,9 @@
           </div>
 
           <!-- <img src="@/assets/image/experience/time.png" alt="" class="experience-page__video-container"> -->
-          <!-- <iframe src="https://www.youtube.com/embed/hlJgM7pnXJw"
+          <iframe src="https://www.youtube.com/embed/hlJgM7pnXJw"
            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-           </iframe> -->
+           </iframe>
             <!-- srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a https://www.youtube.com/embed/hlJgM7pnXJw?autoplay=1><img src=https://img.youtube.com/vi/hlJgM7pnXJw/hqdefault.jpg><span>▶</span></a>" -->
 
         </div>
@@ -370,7 +370,7 @@
               Память и тело в семейных фотографиях ХХ века (C. Адоньева)
           </div>
           <!-- <img src="@/assets/image/experience/logo-mono.png" alt="" class="experience-page__video-container"> -->
-          <!-- <iframe src="https://www.youtube.com/embed/3fg8yXjz6mo" modestbranding="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <iframe src="https://www.youtube.com/embed/3fg8yXjz6mo" modestbranding="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       
       </div>

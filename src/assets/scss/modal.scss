@@ -18,7 +18,7 @@
 
   @media (max-width: 540px) {
     padding: 0;
-    width: 300px;
+    width: 320px;
   }
 }
 
@@ -29,6 +29,11 @@
   font-size: 14px;
   outline: none;
   text-align: right;
+
+  @media (max-width: 540px) {
+    padding-top: 24px;
+    padding-right: 21px;
+  }
 }
 
 .modal__header {
@@ -47,13 +52,27 @@
   text-transform: uppercase;
   padding-top: 50px;
   margin: 0;
+
+  @media (max-width: 540px) {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+  }
 }
 
 .modal__body-wrapper {
+  box-sizing: border-box;
+  padding: 0;
   width: 373px;
+
+  @media (max-width: 540px) {
+    padding: 15px;
+    width: 100%;
+  }
 }
 
 .modal__body-text {
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -62,6 +81,11 @@
   letter-spacing: 0.025em;
   text-align: left;
   margin: 15px 0 30px;
+
+  @media (max-width: 540px) {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 .modal__body-text p {
