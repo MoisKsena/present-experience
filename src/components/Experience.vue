@@ -47,16 +47,9 @@
     <div class="experience-page__wrapper second">
 
       <div class="experience-page__text second">
-        <p>
-          Среди множества фотографий из семейных архивов, которые я попросила у своих друзей и коллег для работы над темой свадьбы,
-          меня зацепили несколько из фотоархива семьи Мариничевых. Они не имели отношения к теме моего исследования, просто попались
-          среди прочих отсканированных фотографий. Тридцать девять изображений. Что-то в них было захватывающее, на них хотелось смотреть.
-          Разглядывание их приводило в дивное состояние-настроение.
+        <p v-html="' Среди множества фотографий из семейных архивов, которые я&nbsp;попросила у своих друзей и&nbsp;коллег для работы над темой свадьбы, меня зацепили несколько из&nbsp;фотоархива семьи Мариничевых. Они не имели отношения к теме моего исследования, просто попались среди прочих отсканированных фотографий. Тридцать девять изображений. Что-то&nbsp;в&nbsp;них было захватывающее, на них хотелось смотреть. Разглядывание их&nbsp;приводило в дивное состояние&ndash;настроение.'">
         </p>
-        <p>
-          Этим состоянием-настроением хотелось делиться с другими: я показывала их на занятиях со студентами Школы документального кино и театра
-          Марины Разбежкиной и Михаила Угарова. Время от времени я выкладывала некоторые из них на своей странице в фейсбуке: я возвращалась к этим
-          фотографиям, когда мне хотелось перевести дыхание. В них не было ничего особенного.
+        <p v-html="'Этим состоянием-настроением хотелось делиться с другими: я&nbsp;показывала их&nbsp;на&nbsp;занятиях со&nbsp;студентами Школы документального кино и театра Марины Разбежкиной и Михаила Угарова. Время от&nbsp;времени я&nbsp;выкладывала некоторые из&nbsp;них&nbsp;на&nbsp;своей странице в&nbsp;фейсбуке: я&nbsp;возвращалась к&nbsp;этим фотографиям, когда мне хотелось перевести дыхание. В них не было ничего особенного.'">
         </p>
       </div>
       
@@ -129,19 +122,22 @@
 
     <div class="experience-page__foto">
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/17exp.png" alt="MARINICHEV-foto">
+        <Gallery7 />
+        <!-- <img src="@/assets/image/experience/foto-archive/17exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/18exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/19exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/19exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/20exp.png" alt="MARINICHEV-foto">
+        <Gallery8 />
+        <!-- <img src="@/assets/image/experience/foto-archive/20exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/21exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/22exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/22exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block small">
-        <img src="@/assets/image/experience/foto-archive/23exp.png" alt="MARINICHEV-foto">
+        <Gallery9 />
+        <!-- <img src="@/assets/image/experience/foto-archive/23exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/24exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/25exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/25exp.png" alt="MARINICHEV-foto"> -->
       </div>
     </div>
 
@@ -160,7 +156,8 @@
         </p>
       </div>
       
-      <img src="@/assets/image/experience/foto-archive/26exp.png" alt="foto-board">
+      <Gallery10 />
+      <!-- <img src="@/assets/image/experience/foto-archive/26exp.png" alt="foto-board"> -->
 
     </div>
 
@@ -404,6 +401,10 @@ import Gallery3 from './Gallery3.vue'
 import Gallery4 from './Gallery4.vue'
 import Gallery5 from './Gallery5.vue'
 import Gallery6 from './Gallery6.vue'
+import Gallery7 from './Gallery7.vue'
+import Gallery8 from './Gallery8.vue'
+import Gallery9 from './Gallery9.vue'
+import Gallery10 from './Gallery10.vue'
 import GalleryBig from './GalleryBig.vue'
 import GalleryBig2 from './GalleryBig2.vue'
 
@@ -420,6 +421,10 @@ export default {
     Gallery4,
     Gallery5,
     Gallery6,
+    Gallery7,
+    Gallery8,
+    Gallery9,
+    Gallery10,
     GalleryBig,
     GalleryBig2, 
     Subscription,
