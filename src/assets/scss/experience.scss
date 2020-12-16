@@ -242,7 +242,8 @@
   @media (max-width: 540px) {
     overflow: hidden;
     height: 700px;
-    width: 300px;
+    position: inherit;
+    width: 100%;
   }
 }
  
