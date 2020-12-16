@@ -120,7 +120,7 @@
       </div>
     </div>
 
-    <div class="experience-page__foto">
+    <div class="experience-page__foto m-margin">
       <div class="experience-page__foto-block small">
         <Gallery7 />
         <!-- <img src="@/assets/image/experience/foto-archive/17exp.png" alt="MARINICHEV-foto">
@@ -163,15 +163,18 @@
 
     <div class="experience-page__foto-block-third">
       <div class="experience-page__foto-block-third big">
-        <img src="@/assets/image/experience/foto-archive/27exp.png" alt="MARINICHEV-foto">
+        <Gallery11 />
+        <!-- <img src="@/assets/image/experience/foto-archive/27exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block-third small">
-        <img src="@/assets/image/experience/foto-archive/28exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/29exp.png" alt="MARINICHEV-foto">
+        <Gallery12 />
+        <!-- <img src="@/assets/image/experience/foto-archive/28exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/29exp.png" alt="MARINICHEV-foto"> -->
       </div>
     </div>
 
-    <img src="@/assets/image/experience/foto-archive/30exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto">
+    <GalleryBig3 />
+    <!-- <img src="@/assets/image/experience/foto-archive/30exp.png" alt="MARINICHEV-foto" class="experience-page__big-foto"> -->
     
     <div class="experience-page__wrapper fifth">
 
@@ -198,8 +201,9 @@
       </div>
       
       <div class="experience-page__foto fifth">
-        <img src="@/assets/image/experience/foto-archive/31exp.png" alt="foto-board">
-        <img src="@/assets/image/experience/foto-archive/32exp.png" alt="foto-board">
+        <Gallery13 />
+        <!-- <img src="@/assets/image/experience/foto-archive/31exp.png" alt="foto-board">
+        <img src="@/assets/image/experience/foto-archive/32exp.png" alt="foto-board"> -->
       </div>
       
     </div>
@@ -223,23 +227,27 @@
       </div>
     </div>
 
-    <img class="experience-page__foto-big-alone" src="@/assets/image/experience/foto-archive/33exp.png" alt="MARINICHEV-foto">
+    <GalleryBig4 />
+    <!-- <img class="experience-page__foto-big-alone" src="@/assets/image/experience/foto-archive/33exp.png" alt="MARINICHEV-foto"> -->
 
     <div class="experience-page__foto">
       <div class="experience-page__foto-block middle">
-        <img src="@/assets/image/experience/foto-archive/34exp.png" alt="MARINICHEV-foto">
+        <Gallery14 />
+        <!-- <img src="@/assets/image/experience/foto-archive/34exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/35exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/36exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/36exp.png" alt="MARINICHEV-foto"> -->
       </div>
-      <div class="experience-page__foto-block middle">
-        <img src="@/assets/image/experience/foto-archive/37exp.png" alt="MARINICHEV-foto">
+      <div class="experience-page__foto-block middle m-margin">
+        <Gallery15 />
+        <!-- <img src="@/assets/image/experience/foto-archive/37exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/38exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/39exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/39exp.png" alt="MARINICHEV-foto"> -->
       </div>
       <div class="experience-page__foto-block middle">
-        <img src="@/assets/image/experience/foto-archive/40exp.png" alt="MARINICHEV-foto">
+        <Gallery16 />
+        <!-- <img src="@/assets/image/experience/foto-archive/40exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/41exp.png" alt="MARINICHEV-foto">
-        <img src="@/assets/image/experience/foto-archive/42exp.png" alt="MARINICHEV-foto">
+        <img src="@/assets/image/experience/foto-archive/42exp.png" alt="MARINICHEV-foto"> -->
       </div>
     </div>
     
@@ -405,8 +413,16 @@ import Gallery7 from './Gallery7.vue'
 import Gallery8 from './Gallery8.vue'
 import Gallery9 from './Gallery9.vue'
 import Gallery10 from './Gallery10.vue'
+import Gallery11 from './Gallery11.vue'
+import Gallery12 from './Gallery12.vue'
+import Gallery13 from './Gallery13.vue'
+import Gallery14 from './Gallery14.vue'
+import Gallery15 from './Gallery15.vue'
+import Gallery16 from './Gallery16.vue'
 import GalleryBig from './GalleryBig.vue'
 import GalleryBig2 from './GalleryBig2.vue'
+import GalleryBig3 from './GalleryBig3.vue'
+import GalleryBig4 from './GalleryBig4.vue'
 
 import Subscription from './Subscription.vue'
 import ModalSuccess from './ModalSuccess.vue'
@@ -425,8 +441,16 @@ export default {
     Gallery8,
     Gallery9,
     Gallery10,
+    Gallery11,
+    Gallery12,
+    Gallery13,
+    Gallery14,
+    Gallery15,
+    Gallery16,
     GalleryBig,
-    GalleryBig2, 
+    GalleryBig2,
+    GalleryBig3,
+    GalleryBig4, 
     Subscription,
     ModalSuccess
   },

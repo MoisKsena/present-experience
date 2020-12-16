@@ -287,6 +287,12 @@
   }
 }
 
+.experience-page__foto-block.middle.m-margin {
+  @media (max-width: 540px) {
+    margin: 20px 0;
+  }
+}
+
 .experience-page__foto-block.middle:first-child {
   @media (max-width: 540px) {
     margin: 20px 0 0;
@@ -522,6 +528,12 @@
   }
 }
 
+.experience-page__foto.m-margin {
+  @media (max-width: 540px) {
+    margin-top: 30px;
+  }
+}
+
 .experience-page__foto-block-third {
   display: flex;
   justify-content: space-between;
@@ -565,7 +577,7 @@
 
 .experience-page__foto-block-third.small {
   @media (max-width: 540px) {
-    width: 300px;
+    width: 100%;
     overflow: hidden;
     margin: 0;
   }
