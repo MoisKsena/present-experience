@@ -18,6 +18,12 @@
   }
 }
 
+.gallery19 {
+  @media (max-width: 540px) {
+    margin: 20px 0;
+  }
+}
+
 .image {
   float: left;
   background-size: cover;

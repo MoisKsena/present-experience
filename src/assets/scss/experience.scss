@@ -242,7 +242,7 @@
   @media (max-width: 540px) {
     overflow: hidden;
     height: 700px;
-    width: 100%;
+    width: 300px;
   }
 }
  
@@ -578,7 +578,7 @@
 .experience-page__foto-block-third.small {
   @media (max-width: 540px) {
     width: 100%;
-    overflow: hidden;
+    //overflow: hidden;
     margin: 0;
   }
 }
