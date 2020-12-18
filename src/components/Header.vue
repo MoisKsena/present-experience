@@ -23,14 +23,15 @@
 
         <transition name="slide-fade">
           <div class="menu__box" id="menu-mobile" v-if="show">
+            <button
+              type="button"
+              class="modal__btn-close mobile-menu"
+              v-on:click="show = !show"
+            >
+              X
+            </button>
             <div class="menu-mobile-wrapper">
-              <button
-                type="button"
-                class="modal__btn-close mobile-menu"
-                v-on:click="show = !show"
-              >
-                X
-              </button>
+              
               <ul class="menu__list-mobile">
                 <li v-on:click="show = false" class="menu__list-mobile-item"><router-link class="menu__list-item-link" to="/Experience" exact>Выставка "Опыт настоящего"</router-link></li>
                 <li v-on:click="show = false" class="menu__list-mobile-item"><router-link class="menu__list-item-link" to="/Pragmem">О проекте Прагмема</router-link></li>

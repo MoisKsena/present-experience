@@ -1,8 +1,6 @@
 <template>
   <div class="gallery big">
     
-    <div>
-
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div
         class="image"
@@ -12,7 +10,6 @@
         :style="{ backgroundImage: 'url(' + image + ')'}"
       ></div>
      
-    </div>
   </div>
 </template>
 

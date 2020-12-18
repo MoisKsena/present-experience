@@ -8,6 +8,8 @@
 }
 
 .gallery.big.m-margin {
+  margin-top: 30px;
+  
   @media (max-width: 540px) {
     margin-top: 30px;
   }
@@ -31,7 +33,7 @@
   }
 
   @media (max-width: 540px) {
-    width: 300px;
+    width: 100%;
     height: 184px;
   }
 }

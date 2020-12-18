@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <div class="gallery gallery18">
     
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div

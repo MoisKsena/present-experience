@@ -1,8 +1,6 @@
 <template>
   <div class="gallery big m-margin">
     
-    <div>
-
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div
         class="image"
@@ -11,8 +9,7 @@
         @click="index = imageIndex"
         :style="{ backgroundImage: 'url(' + image + ')'}"
       ></div>
-     
-    </div>
+    
   </div>
 </template>
 

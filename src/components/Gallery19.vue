@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery m-margin">
+  <div class="gallery gallery19 m-margin">
     
       <gallery :images="images" :index="index" @close="index = null"></gallery>
       <div
