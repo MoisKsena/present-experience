@@ -15,7 +15,7 @@ body {
   padding-top: 31px;
 
   @media (max-width: 1024px) {
-    width: 738px;
+    width: 768px;
   }
 
   @media (max-width: 540px) {
@@ -35,10 +35,6 @@ body {
   @media (max-width: 1024px) {
     max-width: 100%;
     justify-content: space-between;
-  }
-
-  @media (max-width: 540px) {
-    //justify-content: center;
   }
 }
 

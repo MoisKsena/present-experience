@@ -150,7 +150,7 @@
         <Gallery11 />
         <!-- <img src="@/assets/image/experience/foto-archive/27exp.png" alt="MARINICHEV-foto"> -->
       </div>
-      <div class="experience-page__foto-block-third small">
+      <div class="experience-page__foto-block-third small m-margin">
         <Gallery12 />
         <!-- <img src="@/assets/image/experience/foto-archive/28exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/29exp.png" alt="MARINICHEV-foto"> -->
@@ -204,7 +204,7 @@
     <!-- <img class="experience-page__foto-big-alone" src="@/assets/image/experience/foto-archive/33exp.png" alt="MARINICHEV-foto"> -->
 
     <div class="experience-page__foto">
-      <div class="experience-page__foto-block middle">
+      <div class="experience-page__foto-block middle m-margin">
         <Gallery14 />
         <!-- <img src="@/assets/image/experience/foto-archive/34exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/35exp.png" alt="MARINICHEV-foto">
@@ -216,7 +216,7 @@
         <img src="@/assets/image/experience/foto-archive/38exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/39exp.png" alt="MARINICHEV-foto"> -->
       </div>
-      <div class="experience-page__foto-block middle">
+      <div class="experience-page__foto-block middle m-margin">
         <Gallery16 />
         <!-- <img src="@/assets/image/experience/foto-archive/40exp.png" alt="MARINICHEV-foto">
         <img src="@/assets/image/experience/foto-archive/41exp.png" alt="MARINICHEV-foto">
